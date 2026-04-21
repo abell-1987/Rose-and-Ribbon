@@ -1,0 +1,106 @@
+.bookPage h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    max-width: 1100px;
+    margin: 0.5rem auto 0;
+}
+
+.subText {
+    max-width: 900px;
+    margin: 0.5rem auto 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.bookForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contactRow {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.contactRow input {
+    min-width: 240px;
+    padding: 0.6rem 0.75rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.selectRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.selectLabel {
+    width: 90px;
+    opacity: 0.9;
+}
+
+.menuGrid select {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0.45rem 0.6rem;
+    min-width: 240px;
+}
+
+.menuGrid select option {
+    background-color: black;
+    color: white;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.bottomBlock {
+    flex: 1;
+    min-width: 320px;
+}
+
+.totalBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.totalPrice {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+}
+
+.bookBtn {
+    align-self: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.bookBtn:hover {
+    background: white;
+    color: black;
+}

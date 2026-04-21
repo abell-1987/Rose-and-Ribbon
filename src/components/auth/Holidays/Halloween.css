@@ -1,0 +1,209 @@
+/* src/components/auth/Holidays/Halloween.css */
+
+/* Local font in the same folder */
+@font-face {
+    font-family: "Halloween Witchlight";
+    src: url("./Halloween Witchlight.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.halloweenPage {
+    min-height: calc(100vh - 64px);
+
+    /* ✅ tile the background so your global background never shows */
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+    background-attachment: fixed;
+
+    color: white;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.halloweenWrap {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    /* ✅ keep content above confetti */
+    position: relative;
+    z-index: 1;
+}
+
+.halloweenLogo {
+    display: block;
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+/* Title: black fill with lime outline */
+.halloweenTitle {
+    font-family: "Halloween Witchlight", cursive;
+    font-size: 3.1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.75rem 0 1.5rem;
+
+    color: #000;
+    -webkit-text-stroke: 2px #b6ff2b;
+    /* lime outline */
+    text-shadow: 0 0 10px rgba(182, 255, 43, 0.25);
+}
+
+/* Card: same structure feel, black background, purple+lime border */
+.halloweenCard {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+
+    border: 2px solid transparent;
+    border-radius: 12px;
+
+    /* border gradient */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)),
+        linear-gradient(90deg, #9b4dff, #b6ff2b, #9b4dff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    padding: 1.75rem 2rem;
+    text-align: left;
+
+    outline: 1px dashed rgba(255, 255, 255, 0.25);
+    outline-offset: -6px;
+}
+
+.halloweenIntroCard {
+    margin-bottom: 1.5rem;
+}
+
+.halloweenBodyText {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.halloweenGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+/* Category headings: black with lime outline + underlined */
+.halloweenCardTitle {
+    font-family: "Halloween Witchlight", cursive;
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0.85rem 0;
+
+    color: #000;
+    -webkit-text-stroke: 1.8px #b6ff2b;
+    text-shadow: 0 0 10px rgba(182, 255, 43, 0.22);
+
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+}
+
+/* Bulleted list */
+.halloweenList {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.halloweenListItem {
+    position: relative;
+    padding-left: 1.25rem;
+
+    margin: 0.55rem 0;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Purple + lime gradient “bullet” */
+.halloweenListItem::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+
+    width: 0.55rem;
+    height: 0.55rem;
+
+    transform: translateY(-50%);
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #9b4dff, #b6ff2b);
+    box-shadow: 0 0 6px rgba(182, 255, 43, 0.18);
+}
+
+.halloweenListItem strong {
+    font-weight: 700;
+}
+
+.halloweenItemPrice {
+    opacity: 0.9;
+    white-space: nowrap;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+    .halloweenGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .halloweenTitle {
+        font-size: 2.5rem;
+    }
+
+    .halloweenCardTitle {
+        font-size: 2rem;
+    }
+}
+
+/* --- Halloween Confetti --- */
+
+.halloween-confetti-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    /* ✅ behind the page content */
+    z-index: 0;
+
+    /* default, JS overwrites this */
+    --fallDistance: 900px;
+}
+
+.halloween-confetti-piece {
+    position: absolute;
+    top: -20px;
+    animation: halloween-fall linear infinite;
+    will-change: transform;
+}
+
+.halloween-confetti-piece.solid {
+    display: inline-block;
+}
+
+/* Emoji pieces */
+.halloween-confetti-piece.emoji {
+    display: block;
+    transform-origin: center;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.65));
+    user-select: none;
+}
+
+@keyframes halloween-fall {
+    from {
+        transform: translate3d(0, -10px, 0) rotate(0deg);
+    }
+
+    to {
+        transform: translate3d(var(--drift), var(--fallDistance), 0) rotate(var(--spin));
+    }
+}

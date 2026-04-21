@@ -1,0 +1,28 @@
+.menuCategoryPage {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.menuItemsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.menuItemCard {
+    text-align: left;
+}
+
+.menuItemName {
+    margin-bottom: 0.75rem;
+}
+
+.menuItemDesc {
+    line-height: 1.45;
+    margin-bottom: 0.9rem;
+}
+
+.menuItemPrice {
+    font-weight: 700;
+}

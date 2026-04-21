@@ -1,0 +1,200 @@
+/* src/components/auth/Holidays/Galentines.css */
+
+/* League Script (Google Font) will be loaded via index.html */
+.galPage {
+    min-height: calc(100vh - 64px);
+    /* background is set inline in JSX so we can tile it */
+    color: white;
+    padding: 2rem 1rem;
+
+    position: relative;
+
+    /* keep falling hearts clipped to the page area */
+    overflow: hidden;
+}
+
+/* ✅ Confetti lives BEHIND content (absolute within page, so it won't sit over navbar) */
+.galConfettiLayer {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* ✅ Force all actual page content above the confetti */
+.galWrap {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 1;
+}
+
+.galLogo {
+    display: block;
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+/* Title */
+.galTitle {
+    font-family: "League Script", cursive;
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ff7fb2;
+    margin: 0.75rem 0 1.5rem;
+}
+
+/* Cards */
+.galCard {
+    background-color: rgba(92, 24, 55, 0.88);
+    color: white;
+
+    border: 1px solid rgba(255, 170, 210, 0.95);
+    border-radius: 12px;
+
+    padding: 1.75rem 2rem;
+    text-align: left;
+
+    outline: 1px dashed rgba(255, 170, 210, 0.45);
+    outline-offset: -6px;
+
+    background-image: repeating-linear-gradient(45deg,
+            rgba(255, 200, 225, 0.08),
+            rgba(255, 200, 225, 0.08) 2px,
+            rgba(0, 0, 0, 0) 2px,
+            rgba(0, 0, 0, 0) 10px);
+    background-blend-mode: overlay;
+}
+
+.galIntroCard {
+    margin-bottom: 1.5rem;
+}
+
+.galBodyText {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.galPriceLine {
+    margin-top: 1rem;
+}
+
+.galGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+/* Category Headings */
+.galCardTitle {
+    font-family: "League Script", cursive;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #ff7fb2;
+    text-align: center;
+
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+
+    margin: 0 0 0.85rem 0;
+}
+
+/* Bullets */
+.galList {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0;
+}
+
+.galList li::marker {
+    color: #ff7fb2;
+}
+
+.galListItem {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: white;
+}
+
+.galListItem strong {
+    font-weight: 700;
+}
+
+/* ------------------------------
+   💖 Falling Heart Confetti
+-------------------------------- */
+
+/* Each heart (matches JS className) */
+.galHeart {
+    position: absolute;
+    top: -30px;
+
+    width: var(--size, 12px);
+    height: var(--size, 12px);
+
+    opacity: var(--alpha, 0.9);
+
+    background: var(--pink, #ff7fb2);
+    transform: translateX(0) rotate(45deg);
+    border-radius: 2px;
+
+    filter: drop-shadow(0 0 2px rgba(255, 127, 178, 0.35));
+
+    animation-name: galHeartFall;
+    animation-duration: var(--dur, 9s);
+    animation-delay: var(--delay, 0s);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.galHeart::before,
+.galHeart::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 50%;
+}
+
+.galHeart::before {
+    top: -50%;
+    left: 0;
+}
+
+.galHeart::after {
+    left: -50%;
+    top: 0;
+}
+
+@keyframes galHeartFall {
+    0% {
+        transform: translateX(0) rotate(45deg);
+        top: -30px;
+    }
+
+    100% {
+        transform: translateX(var(--drift, 40px)) rotate(45deg);
+        top: calc(100% + 30px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+    .galGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .galTitle {
+        font-size: 2.6rem;
+    }
+
+    .galCardTitle {
+        font-size: 2rem;
+    }
+}

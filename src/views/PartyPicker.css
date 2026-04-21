@@ -1,0 +1,25 @@
+.partyPickerPage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.partyPickerCard {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.partyPickerList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.partyPickerListItem {
+    margin: 0.75rem 0;
+}
+
+.partyPickerLink {
+    color: white;
+    text-decoration: underline;
+}

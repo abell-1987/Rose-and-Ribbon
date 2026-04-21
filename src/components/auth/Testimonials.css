@@ -1,0 +1,92 @@
+.testimonialsPage {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.testimonialsStack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Row layout */
+.testimonialRow {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    /* changed from stretch: prevents the card from stretching taller than its content */
+}
+
+/* Keep explicit classes (readable when you come back later) */
+.testimonialRow--left {
+    flex-direction: row;
+}
+
+.testimonialRow--right {
+    flex-direction: row;
+}
+
+/* Image */
+.testimonialImg {
+    width: 220px;
+    max-width: 35vw;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+    align-self: center;
+}
+
+/* Card */
+.testimonialCard {
+    flex: 1;
+    text-align: left;
+}
+
+.testimonialName {
+    margin-bottom: 0.25rem;
+}
+
+.testimonialMeta {
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+}
+
+.testimonialText {
+    line-height: 1.55;
+    margin-top: 0.75rem;
+    /* keeps the quote further beneath the name */
+    margin-bottom: 0;
+    /* ensures no paragraph margin under the quote */
+}
+
+.testimonialDetails p {
+    margin: 0.35rem 0;
+}
+
+.testimonialDetails ul {
+    padding-left: 1.1rem;
+    margin: 0.25rem 0 0;
+}
+
+.testimonialDetails li {
+    margin: 0.35rem 0;
+}
+
+/* You already use this elsewhere */
+.muted {
+    opacity: 0.75;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+    .testimonialRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonialImg {
+        width: 240px;
+        max-width: 70vw;
+    }
+}
