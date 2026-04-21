@@ -1,0 +1,153 @@
+/* src/components/auth/Holidays/JaneBday.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+
+.janeBdayPage {
+    min-height: calc(100vh - 64px);
+
+    /* Tiled background */
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+    background-attachment: fixed;
+
+    padding: 2rem 1rem;
+    position: relative;
+    /* required for glitter overlay */
+}
+
+.janeBdayWrap {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 1;
+    /* keeps content above glitter */
+}
+
+.janeBdayLogo {
+    display: block;
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+/* Main Page Title */
+.janeBdayTitle {
+    font-family: "Homemade Apple", cursive;
+    font-size: 2.9rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.75rem 0 1.5rem;
+
+    color: #2f6fb2;
+    -webkit-text-stroke: 1.6px #1f4f80;
+    text-shadow: 0 0 10px rgba(47, 111, 178, 0.18);
+}
+
+/* Card Styling */
+.janeBdayCard {
+    background-color: rgba(232, 244, 255, 0.96);
+    border: 2px solid #6495ed;
+    /* cornflower blue */
+    border-radius: 12px;
+
+    padding: 1.75rem 2rem;
+    text-align: left;
+}
+
+.janeBdayIntroCard {
+    margin-bottom: 1.5rem;
+}
+
+/* Event description + item descriptions */
+.janeBdayBodyText {
+    margin: 0;
+    line-height: 1.6;
+    color: #2f6fb2;
+}
+
+/* Grid layout */
+.janeBdayGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+/* Category Titles (same styling as main title) */
+.janeBdayCardTitle {
+    font-family: "Homemade Apple", cursive;
+    font-size: 2.15rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0.85rem 0;
+
+    color: #2f6fb2;
+    -webkit-text-stroke: 1.6px #1f4f80;
+    text-shadow: 0 0 10px rgba(47, 111, 178, 0.18);
+
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+}
+
+/* List Styling */
+.janeBdayList {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.janeBdayListItem {
+    position: relative;
+    padding-left: 1.25rem;
+
+    margin: 0.55rem 0;
+    line-height: 1.5;
+    color: #2f6fb2;
+}
+
+/* Medium blue custom bullets */
+.janeBdayListItem::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+
+    width: 0.55rem;
+    height: 0.55rem;
+
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #2f6fb2;
+    box-shadow: 0 0 6px rgba(47, 111, 178, 0.18);
+}
+
+/* Item name bold */
+.janeBdayItemName {
+    font-weight: 700;
+    color: #1f4f80;
+}
+
+/* Price bold */
+.janeBdayItemPrice {
+    font-weight: 700;
+    white-space: nowrap;
+    color: #1f4f80;
+}
+
+/* Responsive */
+@media (max-width: 760px) {
+    .janeBdayGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .janeBdayTitle {
+        font-size: 2.35rem;
+    }
+
+    .janeBdayCardTitle {
+        font-size: 1.85rem;
+    }
+}

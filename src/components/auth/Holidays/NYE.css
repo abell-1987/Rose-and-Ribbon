@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+.nyePage {
+    min-height: calc(100vh - 64px);
+
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: top left;
+
+    color: white;
+    padding: 2rem 1rem;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.nyeWrap {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 2;
+    /* above glitter layer */
+}
+
+.nyeLogo {
+    display: block;
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+/* Title */
+.nyeTitle {
+    font-family: "Megrim", cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #d4af37;
+    margin: 0.75rem 0 1.5rem;
+}
+
+/* Card */
+.nyeCard {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+
+    border: 1px solid #d4af37;
+    border-radius: 12px;
+
+    padding: 1.75rem 2rem;
+    text-align: left;
+
+    outline: 1px dashed rgba(212, 175, 55, 0.45);
+    outline-offset: -6px;
+
+    background-image: repeating-linear-gradient(45deg,
+            rgba(212, 175, 55, 0.06),
+            rgba(212, 175, 55, 0.06) 2px,
+            rgba(0, 0, 0, 0) 2px,
+            rgba(0, 0, 0, 0) 10px);
+    background-blend-mode: overlay;
+}
+
+.nyeIntroCard {
+    margin-bottom: 1.5rem;
+}
+
+.nyeBodyText {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.nyePriceLine {
+    margin-top: 1rem;
+}
+
+.nyeGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+/* Category headings — centered + gold + underlined + bold */
+.nyeCardTitle {
+    font-family: "Megrim", cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d4af37;
+
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+
+    margin: 0 0 0.85rem 0;
+}
+
+/* Restore bullets removed by global reset */
+.nyeList {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0;
+}
+
+/* Gold bullets */
+.nyeList li::marker {
+    color: #d4af37;
+}
+
+.nyeListItem {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: white;
+}
+
+.nyeListItem strong {
+    font-weight: 700;
+}
+
+/* -----------------------------
+   ✨ GOLD GLITTER SHOWER LAYER
+   (six-point star sparkles)
+------------------------------ */
+
+.nyeGlitterLayer {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    /* between background and content */
+    overflow: hidden;
+}
+
+/* Container (no longer a dot) */
+.nyeGlitter {
+    position: absolute;
+    top: -12vh;
+
+    /* width/height still controlled from inline styles in NYE.jsx */
+    background: transparent;
+
+    /* sparkle feel */
+    filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.55)) drop-shadow(0 0 22px rgba(212, 175, 55, 0.35));
+    will-change: transform, opacity, filter;
+
+    animation-name: nyeFall, nyeTwinkle;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-duration: inherit, var(--twinkle);
+}
+
+/* Two triangles overlapped = six-point star */
+.nyeGlitter::before,
+.nyeGlitter::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: radial-gradient(circle at 30% 30%,
+            rgba(255, 255, 255, 1) 0%,
+            /* sharp highlight */
+            rgba(255, 245, 190, 0.98) 18%,
+            /* bright flare */
+            rgba(255, 215, 0, 0.95) 38%,
+            /* vivid gold */
+            rgba(212, 175, 55, 0.95) 58%,
+            /* deep gold body */
+            rgba(184, 134, 11, 0.85) 72%,
+            /* rich metallic edge */
+            rgba(212, 175, 55, 0) 88%);
+
+    /* crisp triangle edges */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    opacity: 0.95;
+}
+
+/* flipped triangle */
+.nyeGlitter::after {
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+/* Falling motion */
+@keyframes nyeFall {
+    from {
+        transform: translate3d(0, -10vh, 0) rotate(0deg) scale(0.9);
+    }
+
+    to {
+        transform: translate3d(var(--drift), 120vh, 0) rotate(260deg) scale(1.05);
+    }
+}
+
+/* Twinkle effect (brightness shimmer) */
+@keyframes nyeTwinkle {
+    0% {
+        opacity: 0.35;
+        filter: brightness(1);
+    }
+
+    25% {
+        opacity: 0.75;
+        filter: brightness(2.2);
+    }
+
+    50% {
+        opacity: 1;
+        filter: brightness(3.2);
+    }
+
+    75% {
+        opacity: 0.8;
+        filter: brightness(2);
+    }
+
+    100% {
+        opacity: 0.4;
+        filter: brightness(1.1);
+    }
+}
+
+/* Optional: a few extra-bright, faster twinkles */
+.nyeGlitter:nth-child(7n) {
+    animation-duration: inherit, calc(var(--twinkle) * 0.6);
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+    .nyeGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .nyeTitle {
+        font-size: 2.4rem;
+    }
+
+    .nyeCardTitle {
+        font-size: 1.8rem;
+    }
+}

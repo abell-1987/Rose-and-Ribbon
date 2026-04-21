@@ -12,5 +12,2028 @@
       "email": "emma.woodhouse@example.com",
       "phone": "555-987-6543"
     }
+  ],
+  "parties": [
+    {
+      "id": 1,
+      "userId": 1,
+      "occasionId": 1,
+      "partyDate": "2026-03-22",
+      "totalPrice": 1625
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "occasionId": 6,
+      "partyDate": "2026-02-27",
+      "totalPrice": 1952
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "occasionId": 6,
+      "partyDate": "2026-05-09",
+      "totalPrice": 1424
+    }
+  ],
+  "teaPartyMenuItems": [
+    {
+      "id": 1,
+      "partyId": 1,
+      "menuItemId": 2
+    },
+    {
+      "id": 2,
+      "partyId": 1,
+      "menuItemId": 3
+    },
+    {
+      "id": 3,
+      "partyId": 1,
+      "menuItemId": 5
+    },
+    {
+      "id": 4,
+      "partyId": 1,
+      "menuItemId": 10
+    },
+    {
+      "id": 5,
+      "partyId": 1,
+      "menuItemId": 11
+    },
+    {
+      "id": 6,
+      "partyId": 1,
+      "menuItemId": 14
+    },
+    {
+      "id": 7,
+      "partyId": 1,
+      "menuItemId": 16
+    },
+    {
+      "id": 8,
+      "partyId": 1,
+      "menuItemId": 20
+    },
+    {
+      "id": 9,
+      "partyId": 1,
+      "menuItemId": 22
+    },
+    {
+      "id": 10,
+      "partyId": 1,
+      "menuItemId": 23
+    },
+    {
+      "id": 11,
+      "partyId": 1,
+      "menuItemId": 24
+    },
+    {
+      "id": 12,
+      "partyId": 1,
+      "menuItemId": 27
+    },
+    {
+      "id": 13,
+      "partyId": 1,
+      "menuItemId": 29
+    },
+    {
+      "id": 14,
+      "partyId": 1,
+      "menuItemId": 31
+    },
+    {
+      "id": 15,
+      "partyId": 1,
+      "menuItemId": 33
+    },
+    {
+      "id": 16,
+      "partyId": 1,
+      "menuItemId": 36
+    },
+    {
+      "id": 17,
+      "partyId": 2,
+      "menuItemId": 8
+    },
+    {
+      "id": 18,
+      "partyId": 2,
+      "menuItemId": 7
+    },
+    {
+      "id": 19,
+      "partyId": 2,
+      "menuItemId": 10
+    },
+    {
+      "id": 20,
+      "partyId": 2,
+      "menuItemId": 6
+    },
+    {
+      "id": 21,
+      "partyId": 2,
+      "menuItemId": 14
+    },
+    {
+      "id": 22,
+      "partyId": 2,
+      "menuItemId": 13
+    },
+    {
+      "id": 23,
+      "partyId": 2,
+      "menuItemId": 17
+    },
+    {
+      "id": 24,
+      "partyId": 2,
+      "menuItemId": 16
+    },
+    {
+      "id": 25,
+      "partyId": 2,
+      "menuItemId": 21
+    },
+    {
+      "id": 26,
+      "partyId": 2,
+      "menuItemId": 20
+    },
+    {
+      "id": 27,
+      "partyId": 2,
+      "menuItemId": 24
+    },
+    {
+      "id": 28,
+      "partyId": 2,
+      "menuItemId": 25
+    },
+    {
+      "id": 29,
+      "partyId": 2,
+      "menuItemId": 28
+    },
+    {
+      "id": 30,
+      "partyId": 2,
+      "menuItemId": 29
+    },
+    {
+      "id": 31,
+      "partyId": 2,
+      "menuItemId": 31
+    },
+    {
+      "id": 32,
+      "partyId": 2,
+      "menuItemId": 33
+    },
+    {
+      "id": 33,
+      "partyId": 2,
+      "menuItemId": 36
+    },
+    {
+      "id": 34,
+      "partyId": 2,
+      "menuItemId": 38
+    },
+    {
+      "id": 35,
+      "partyId": 3,
+      "menuItemId": 1
+    },
+    {
+      "id": 36,
+      "partyId": 3,
+      "menuItemId": 5
+    },
+    {
+      "id": 37,
+      "partyId": 3,
+      "menuItemId": 11
+    },
+    {
+      "id": 38,
+      "partyId": 3,
+      "menuItemId": 15
+    },
+    {
+      "id": 39,
+      "partyId": 3,
+      "menuItemId": 22
+    },
+    {
+      "id": 40,
+      "partyId": 3,
+      "menuItemId": 26
+    },
+    {
+      "id": 41,
+      "partyId": 3,
+      "menuItemId": 27
+    },
+    {
+      "id": 42,
+      "partyId": 3,
+      "menuItemId": 31
+    },
+    {
+      "id": 43,
+      "partyId": 3,
+      "menuItemId": 32
+    },
+    {
+      "id": 44,
+      "partyId": 3,
+      "menuItemId": 37
+    }
+  ],
+  "occasions": [
+    {
+      "id": 1,
+      "name": "Birthday"
+    },
+    {
+      "id": 2,
+      "name": "Bridal Shower"
+    },
+    {
+      "id": 3,
+      "name": "Baby Shower"
+    },
+    {
+      "id": 4,
+      "name": "Bachelorette Party"
+    },
+    {
+      "id": 5,
+      "name": "Engagement Party"
+    },
+    {
+      "id": 6,
+      "name": "Just Because"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "Regency Breakfast",
+      "categoryId": "House Teas",
+      "description": "A refined take on English Breakfast with extra body and smoothness. Flavor notes: Malty black teas, subtle cocoa undertones, clean finish. Perfect for: Milk, sugar, and spirited debate. Price per 66oz pot.",
+      "price": 22
+    },
+    {
+      "id": 2,
+      "name": "Bergamot No. 5",
+      "categoryId": "House Teas",
+      "description": "An elevated Earl Grey blend with layered citrus aromatics. Flavor notes: Bergamot peel, sweet orange oil, soft floral finish. Perfect for: Guests who want tradition—with polish. Price per 66oz pot.",
+      "price": 24
+    },
+    {
+      "id": 3,
+      "name": "Jasmine Pearl Reserve",
+      "categoryId": "House Teas",
+      "description": "Hand-rolled jasmine pearls that unfurl slowly and gracefully. Flavor notes: Silky green tea, fresh jasmine blossom, light sweetness. Perfect for: A calm, elegant course between sweets. Price per 66oz pot.",
+      "price": 26
+    },
+    {
+      "id": 4,
+      "name": "Peach White Reverie",
+      "categoryId": "House Teas",
+      "description": "Delicate white tea kissed with ripe stone fruit. Flavor notes: Soft peach, honeyed florals, airy mouthfeel. Perfect for: Afternoon service and lighter palates. Price per 66oz pot.",
+      "price": 25
+    },
+    {
+      "id": 5,
+      "name": "Rose & Lychee Blush",
+      "categoryId": "House Teas",
+      "description": "A modern floral blend that’s aromatic without being perfumed. Flavor notes: Rose petal, lychee sweetness, gentle green tea base. Perfect for: Celebrations and photograph-worthy pours. Price per 66oz pot.",
+      "price": 27
+    },
+    {
+      "id": 6,
+      "name": "Chamomile Vanilla Cloud",
+      "categoryId": "House Teas",
+      "description": "Comforting, smooth, and subtly indulgent. Flavor notes: Apple-like chamomile, warm vanilla, creamy finish. Perfect for: Late-afternoon wind-downs and cozy tables. Price per 66oz pot.",
+      "price": 23
+    },
+    {
+      "id": 7,
+      "name": "Minted Moroccan Green",
+      "categoryId": "House Teas",
+      "description": "Bright, refreshing, and effortlessly social. Flavor notes: Crisp spearmint, grassy green tea, clean sweetness. Perfect for: Pairing with savory bites or warmer days. Price per 66oz pot.",
+      "price": 24
+    },
+    {
+      "id": 8,
+      "name": "Spiced Orchard Rooibos",
+      "categoryId": "House Teas",
+      "description": "Caffeine-free and richly layered. Flavor notes: Apple, cinnamon, clove, naturally sweet rooibos. Perfect for: Guests avoiding caffeine without sacrificing depth. Price per 66oz pot.",
+      "price": 25
+    },
+    {
+      "id": 9,
+      "name": "Lavender Grey Cream",
+      "categoryId": "House Teas",
+      "description": "A soft, modern twist on Earl Grey. Flavor notes: Lavender bud, bergamot, vanilla cream notes. Perfect for: Dessert courses and candlelit tables. Price per 66oz pot.",
+      "price": 26
+    },
+    {
+      "id": 10,
+      "name": "Midnight Fig Pu-erh",
+      "categoryId": "House Teas",
+      "description": "Earthy, sophisticated, and quietly indulgent. Flavor notes: Dried fig, dark honey, smooth aged tea character. Perfect for: Adventurous drinkers and late sittings. Price per 66oz pot.",
+      "price": 28
+    },
+    {
+      "id": 11,
+      "name": "The Elizabeth Bennet",
+      "categoryId": "Cocktails",
+      "description": "A lively, lightly sparkling cocktail that balances sharp intelligence with unexpected softness. Ingredients: Earl Grey tea–infused gin, fresh lemon juice, honey syrup, orange bitters, topped with dry prosecco. Clever, refreshing, and just a little bit subversive—much like Elizabeth herself. Price per 10 servings.",
+      "price": 120
+    },
+    {
+      "id": 12,
+      "name": "The Emma Woodhouse",
+      "categoryId": "Cocktails",
+      "description": "Elegant, aromatic, and confidently composed—perhaps too confident. Ingredients: Jasmine green tea–infused vodka, elderflower liqueur, white peach purée, lemon juice, finished with a rose-petal garnish. Pretty, polished, and persuasive—this cocktail thinks it knows exactly what you want. Price per 10 servings.",
+      "price": 135
+    },
+    {
+      "id": 13,
+      "name": "The Anne Elliot",
+      "categoryId": "Cocktails",
+      "description": "A gentle, warming drink that rewards patience and quiet depth. Ingredients: Chamomile tea, aged rum, vanilla syrup, a touch of pear brandy, and a dash of nutmeg. Softly floral and comforting, with a slow-building richness—reserved at first sip, unforgettable by the last. Price per 10 servings.",
+      "price": 140
+    },
+    {
+      "id": 14,
+      "name": "The Elinor Dashwood",
+      "categoryId": "Cocktails",
+      "description": "Structured, balanced, and impeccably restrained—until you notice the emotional undercurrent. Ingredients: Black tea–infused bourbon, apricot liqueur, lemon peel, and a whisper of clove. Steady and sensible on the surface, with warmth and depth quietly revealed. Price per 10 servings.",
+      "price": 115
+    },
+    {
+      "id": 15,
+      "name": "The Lydia Bennet",
+      "categoryId": "Italian Sodas",
+      "description": "A lively, flirtatious soda with plenty of sparkle. Ingredients: Regency Breakfast black tea shaken with blood orange syrup, a splash of vanilla, and topped with sparkling water. Bright, bold, and a little impulsive — this one refuses to be ignored. Price per pitcher.",
+      "price": 24
+    },
+    {
+      "id": 16,
+      "name": "The Mr. Knightley",
+      "categoryId": "Italian Sodas",
+      "description": "Grounded, refreshing, and impeccably balanced. Ingredients: Minted Moroccan Green Tea blended with fresh cucumber, lime juice, and soda water. Cool-headed and dependable, with a quiet depth beneath the freshness. Price per pitcher.",
+      "price": 25
+    },
+    {
+      "id": 17,
+      "name": "The Marianne Dashwood",
+      "categoryId": "Italian Sodas",
+      "description": "Expressive, aromatic, and unapologetically romantic. Ingredients: Lavender Grey Cream tea infused with lemon, a touch of honey syrup, and sparkling water. Floral, emotional, and dramatic in the best possible way. Price per pitcher.",
+      "price": 26
+    },
+    {
+      "id": 18,
+      "name": "The Catherine Morland",
+      "categoryId": "Italian Sodas",
+      "description": "Playful, bright, and delightfully imaginative. Ingredients: Rose & Lychee Blush green tea paired with raspberry syrup and soda water. Light, fruity, and charming — sweeter than expected, but never naïve. Price per pitcher.",
+      "price": 23
+    },
+    {
+      "id": 19,
+      "name": "Vanilla Bean Éclairs",
+      "categoryId": "Sweet Pastries",
+      "description": "Light choux pastry filled with silky vanilla bean pastry cream and finished with a glossy fondant glaze. Classic, refined, and universally adored—an anchor pastry for any tea spread. Price per dozen.",
+      "price": 54
+    },
+    {
+      "id": 20,
+      "name": "Rose Pistachio Financiers",
+      "categoryId": "Sweet Pastries",
+      "description": "Delicate almond tea cakes enriched with brown butter, studded with pistachio, and lightly perfumed with rose. Elegant, aromatic, and subtly luxurious without being overpowering. Price per dozen.",
+      "price": 48
+    },
+    {
+      "id": 21,
+      "name": "Lemon Madeleines",
+      "categoryId": "Sweet Pastries",
+      "description": "Traditional shell-shaped sponge cakes with bright lemon zest and a soft, tender crumb. Light, uplifting, and ideal for pairing with black or floral teas. Price per dozen.",
+      "price": 42
+    },
+    {
+      "id": 22,
+      "name": "Chocolate Hazelnut Mille-Feuille Bites",
+      "categoryId": "Sweet Pastries",
+      "description": "Crisp puff pastry layers filled with chocolate-hazelnut cream and finished with a delicate cocoa dusting. Decadent but restrained—rich flavor in an impeccably portioned form. Price per dozen.",
+      "price": 60
+    },
+    {
+      "id": 23,
+      "name": "Smoked Salmon & Dill Choux Puffs",
+      "categoryId": "Savory Pastries",
+      "description": "Light choux pastry filled with whipped cream cheese, smoked salmon, fresh dill, and lemon zest. Airy, elegant, and unmistakably celebratory. Price per dozen.",
+      "price": 66
+    },
+    {
+      "id": 24,
+      "name": "Caramelized Onion & Gruyère Palmiers",
+      "categoryId": "Savory Pastries",
+      "description": "Buttery puff pastry folded with slow-cooked onions and nutty Gruyère cheese, baked until crisp and golden. Savory-sweet, deeply aromatic, and endlessly snackable. Price per dozen.",
+      "price": 48
+    },
+    {
+      "id": 25,
+      "name": "Wild Mushroom & Thyme Vol-au-Vents",
+      "categoryId": "Savory Pastries",
+      "description": "Flaky pastry shells filled with sautéed wild mushrooms, shallot, and fresh thyme in a light cream sauce. Earthy, refined, and perfectly balanced for afternoon service. Price per dozen.",
+      "price": 60
+    },
+    {
+      "id": 26,
+      "name": "Prosciutto, Fig & Goat Cheese Croissants",
+      "categoryId": "Savory Pastries",
+      "description": "Mini croissants filled with tangy goat cheese, fig preserve, and thinly sliced prosciutto. Rich, salty-sweet, and unapologetically indulgent. Price per dozen.",
+      "price": 72
+    },
+    {
+      "id": 27,
+      "name": "Pomegranate Rose Custard Tarts",
+      "categoryId": "Tarts",
+      "description": "Silky vanilla custard infused with rose water, topped with jewel-like pomegranate arils in a buttery tart shell. Bright, floral, and lightly perfumed with a dramatic pop of color. Price per dozen.",
+      "price": 58
+    },
+    {
+      "id": 28,
+      "name": "Lavender Honey Lemon Tarts",
+      "categoryId": "Tarts",
+      "description": "Smooth lemon curd sweetened with wildflower honey and delicately infused with culinary lavender. Fragrant, sunny, and perfectly balanced between floral and citrus. Price per dozen.",
+      "price": 56
+    },
+    {
+      "id": 29,
+      "name": "Peach Elderflower Cream Tarts",
+      "categoryId": "Tarts",
+      "description": "Fresh peach compote layered over elderflower-scented pastry cream in a crisp shell. Soft, romantic flavors with a summery elegance. Price per dozen.",
+      "price": 60
+    },
+    {
+      "id": 30,
+      "name": "Strawberry Hibiscus Jam Tarts",
+      "categoryId": "Tarts",
+      "description": "Bright strawberry jam steeped with hibiscus, finished with a light crème fraîche swirl. Vibrant, slightly tart, and irresistibly modern. Price per dozen.",
+      "price": 54
+    },
+    {
+      "id": 31,
+      "name": "Classic Cucumber & Herbed Cream Cheese",
+      "categoryId": "Tea Sandwiches",
+      "description": "Thin-sliced cucumber layered with whipped cream cheese, fresh dill, and chives on soft white bread, crusts removed. Cool, crisp, and timeless — the anchor of any tea spread. Price per dozen.",
+      "price": 42
+    },
+    {
+      "id": 32,
+      "name": "Smoked Chicken Salad with Tarragon",
+      "categoryId": "Tea Sandwiches",
+      "description": "Tender smoked chicken mixed with lemony mayonnaise, celery, and fresh tarragon on wheat bread. Savory, aromatic, and just hearty enough. Price per dozen.",
+      "price": 48
+    },
+    {
+      "id": 33,
+      "name": "Peppered Turkey & Whipped Brie",
+      "categoryId": "Tea Sandwiches",
+      "description": "Thin-sliced peppered turkey paired with lightly whipped brie and baby greens on soft white bread. Creamy and refined — a gentle alternative to heavier meats. Price per dozen.",
+      "price": 50
+    },
+    {
+      "id": 34,
+      "name": "Marinated Artichoke, Pesto & Baby Spinach",
+      "categoryId": "Tea Sandwiches",
+      "description": "Marinated artichoke hearts with fresh spinach and basil pesto on multigrain bread. Verdant, savory, and fully plant-based. Price per dozen.",
+      "price": 46
+    },
+    {
+      "id": 35,
+      "name": "Spring Greens with Citrus & Almonds",
+      "categoryId": "Salads",
+      "description": "Mixed spring greens tossed with orange segments, shaved fennel, and toasted almonds in a light champagne vinaigrette. Bright, crisp, and refreshing. Price per 10 servings.",
+      "price": 66
+    },
+    {
+      "id": 36,
+      "name": "Strawberry, Goat Cheese & Pistachio Salad",
+      "categoryId": "Salads",
+      "description": "Sweet strawberries layered with creamy goat cheese, baby greens, and candied pistachios, finished with white balsamic vinaigrette. Fresh, colorful, and lightly indulgent. Price per 10 servings.",
+      "price": 74
+    },
+    {
+      "id": 37,
+      "name": "Pear, Walnut & Blue Cheese Salad",
+      "categoryId": "Salads",
+      "description": "Ripe pears paired with blue cheese crumbles, mixed greens, and toasted walnuts in a honey–mustard dressing. Classic flavors with depth and balance. Price per 10 servings.",
+      "price": 72
+    },
+    {
+      "id": 38,
+      "name": "Cucumber & Herb Green Salad",
+      "categoryId": "Salads",
+      "description": "Crisp cucumber ribbons layered over tender mixed greens with fresh herbs and crumbled feta, finished with a light house vinaigrette. Cool, refreshing, and gently savory with a clean finish. Price per 10 servings.",
+      "price": 66
+    },
+    {
+      "id": 39,
+      "name": "Velvet Smoke Breakfast",
+      "categoryId": "NYE Teas",
+      "description": "A bold black tea with notes of cocoa and vanilla, finished with a whisper of lapsang smokiness. Deep, dramatic, and decadently smooth.",
+      "price": 0
+    },
+    {
+      "id": 40,
+      "name": "Champagne Rose White Tea",
+      "categoryId": "NYE Teas",
+      "description": "Delicate white tea infused with rose petals and bright orchard fruit aromatics. Light, fragrant, and celebratory.",
+      "price": 0
+    },
+    {
+      "id": 41,
+      "name": "Gilded Citrus Earl Grey",
+      "categoryId": "NYE Teas",
+      "description": "Classic bergamot layered with sweet orange peel and soft floral notes. Elegant, luminous, and endlessly stylish.",
+      "price": 0
+    },
+    {
+      "id": 42,
+      "name": "Midnight Jasmine Reserve",
+      "categoryId": "NYE Teas",
+      "description": "Silky green tea scented with night-blooming jasmine blossoms. Refined, aromatic, and softly intoxicating.",
+      "price": 0
+    },
+    {
+      "id": 43,
+      "name": "Spiced Orchard Rooibos",
+      "categoryId": "NYE Teas",
+      "description": "Naturally caffeine-free rooibos with warm baking spice and dried fruit character. Comforting, rich, and velvety.",
+      "price": 0
+    },
+    {
+      "id": 44,
+      "name": "The Flapper’s Fizz",
+      "categoryId": "NYE Cocktails",
+      "description": "Champagne, elderflower liqueur, and chilled jasmine tea with a bright citrus lift. Effervescent, floral, and dangerously charming.",
+      "price": 0
+    },
+    {
+      "id": 45,
+      "name": "The Speakeasy Sour",
+      "categoryId": "NYE Cocktails",
+      "description": "Black tea–infused bourbon, honey syrup, and aromatic bitters. Smooth, spirited, and quietly rebellious.",
+      "price": 0
+    },
+    {
+      "id": 46,
+      "name": "The Gilded Garden",
+      "categoryId": "NYE Cocktails",
+      "description": "Gin shaken with chamomile tea, apricot, and a delicate herbal finish. Soft, fragrant, and elegantly unexpected.",
+      "price": 0
+    },
+    {
+      "id": 47,
+      "name": "The Green Muse",
+      "categoryId": "NYE Cocktails",
+      "description": "Absinthe, gin, chilled citrus-kissed white tea, and a touch of simple syrup. Herbaceous, luminous, and delightfully scandalous — a true Jazz Age indulgence.",
+      "price": 0
+    },
+    {
+      "id": 48,
+      "name": "The Jazz Age Sparkler",
+      "categoryId": "NYE Italian Sodas",
+      "description": "White tea, blood orange syrup, and sparkling water. Bright, lively, and made for celebration.",
+      "price": 0
+    },
+    {
+      "id": 49,
+      "name": "The Silk Ribbon Soda",
+      "categoryId": "NYE Italian Sodas",
+      "description": "Rose tea, raspberry essence, and a gentle vanilla finish. Light, fragrant, and delightfully smooth.",
+      "price": 0
+    },
+    {
+      "id": 50,
+      "name": "Chocolate Espresso Cream Puffs",
+      "categoryId": "NYE Sweet Pastries",
+      "description": "Airy choux pastry filled with espresso-kissed chocolate cream. Rich, glamorous, and deeply indulgent.",
+      "price": 0
+    },
+    {
+      "id": 51,
+      "name": "Champagne Berry Génoise Bites",
+      "categoryId": "NYE Sweet Pastries",
+      "description": "Light sponge cake layered with whipped cream and macerated berries. Soft, delicate, and celebratory.",
+      "price": 0
+    },
+    {
+      "id": 52,
+      "name": "Gruyère & Caramelized Onion Pinwheels",
+      "categoryId": "NYE Savory Pastries",
+      "description": "Flaky pastry spirals with sweet onion and nutty cheese. Buttery, aromatic, irresistibly elegant.",
+      "price": 0
+    },
+    {
+      "id": 53,
+      "name": "Wild Mushroom Puff Pastry Squares",
+      "categoryId": "NYE Savory Pastries",
+      "description": "Earthy mushrooms in a velvety herb filling. Warm, savory, quietly luxurious.",
+      "price": 0
+    },
+    {
+      "id": 54,
+      "name": "Blackberry Vanilla Cream Tarts",
+      "categoryId": "NYE Tarts",
+      "description": "Fresh blackberries over silky vanilla cream in crisp shells. Lush, vibrant, beautifully decadent.",
+      "price": 0
+    },
+    {
+      "id": 55,
+      "name": "Citrus Blossom Custard Tarts",
+      "categoryId": "NYE Tarts",
+      "description": "Smooth custard scented with delicate floral citrus aromatics. Bright, fragrant, and refined.",
+      "price": 0
+    },
+    {
+      "id": 56,
+      "name": "Ham, Gruyère & Dijon Butter",
+      "categoryId": "NYE Tea Sandwiches",
+      "description": "Delicate sliced ham with nutty Gruyère and smooth Dijon butter. Savory, rich, and perfectly suited for a champagne evening.",
+      "price": 0
+    },
+    {
+      "id": 57,
+      "name": "Truffle Goat Cheese & Cucumber",
+      "categoryId": "NYE Tea Sandwiches",
+      "description": "Tangy goat cheese infused with truffle, layered with crisp cucumber. Cool, refined, and surprisingly addictive.",
+      "price": 0
+    },
+    {
+      "id": 58,
+      "name": "Winter Greens with Pear & Candied Walnuts",
+      "categoryId": "NYE Salads",
+      "description": "Tender greens with ripe pear and gentle sweetness. Fresh, crisp, elegantly balanced.",
+      "price": 0
+    },
+    {
+      "id": 59,
+      "name": "Citrus & Herb Green Salad",
+      "categoryId": "NYE Salads",
+      "description": "Mixed greens with bright citrus and delicate vinaigrette. Light, refreshing, palate-cleansing.",
+      "price": 0
+    },
+    {
+      "id": 60,
+      "name": "Blushing Rose Vanilla",
+      "categoryId": "Galentines Teas",
+      "description": "Delicate black tea layered with rose petals and soft vanilla cream notes. Romantic, fragrant, and unapologetically pretty.",
+      "price": 0
+    },
+    {
+      "id": 61,
+      "name": "Strawberry Cream Black Tea",
+      "categoryId": "Galentines Teas",
+      "description": "Smooth black tea infused with ripe strawberry and a whisper of sweetness. Playful, bright, and delightfully nostalgic.",
+      "price": 0
+    },
+    {
+      "id": 62,
+      "name": "Lavender Daydream",
+      "categoryId": "Galentines Teas",
+      "description": "Soft floral lavender woven into a silky Earl Grey base. Graceful, calming, and quietly luxurious.",
+      "price": 0
+    },
+    {
+      "id": 63,
+      "name": "Peach Champagne White Tea",
+      "categoryId": "Galentines Teas",
+      "description": "Light white tea kissed with orchard peach and subtle brightness. Effervescent in spirit and effortlessly charming.",
+      "price": 0
+    },
+    {
+      "id": 64,
+      "name": "Vanilla Almond Rooibos",
+      "categoryId": "Galentines Teas",
+      "description": "Naturally caffeine-free rooibos with warm vanilla and toasted almond notes. Comforting, smooth, and gently indulgent.",
+      "price": 0
+    },
+    {
+      "id": 65,
+      "name": "The Pink Ribbon Fizz",
+      "categoryId": "Galentines Cocktails",
+      "description": "Sparkling wine, strawberry essence, and chilled rose tea. Bright, bubbly, and made for toasts.",
+      "price": 0
+    },
+    {
+      "id": 66,
+      "name": "The Heartbreaker Spritz",
+      "categoryId": "Galentines Cocktails",
+      "description": "Gin, raspberry, delicate florals, and a lively citrus lift. Playful, charming, and slightly mischievous.",
+      "price": 0
+    },
+    {
+      "id": 67,
+      "name": "The Darling Dashwood",
+      "categoryId": "Galentines Italian Sodas",
+      "description": "Lavender tea, vanilla syrup, and sparkling water. Floral, soft, and effortlessly elegant.",
+      "price": 0
+    },
+    {
+      "id": 68,
+      "name": "The Cupid Collins",
+      "categoryId": "Galentines Italian Sodas",
+      "description": "Strawberry and peach syrups with chilled white tea and bubbles. Bright, juicy, and cheerfully celebratory.",
+      "price": 0
+    },
+    {
+      "id": 69,
+      "name": "Strawberry Rose Cream Puffs",
+      "categoryId": "Galentines Sweet Pastries",
+      "description": "Airy choux pastry filled with strawberry-rose cream. Light, fragrant, and irresistibly feminine.",
+      "price": 0
+    },
+    {
+      "id": 70,
+      "name": "Chocolate Raspberry Petits",
+      "categoryId": "Galentines Sweet Pastries",
+      "description": "Rich chocolate bites layered with bright raspberry. Decadent, dramatic, and deeply indulgent.",
+      "price": 0
+    },
+    {
+      "id": 71,
+      "name": "Whipped Brie & Honey Croissants",
+      "categoryId": "Galentines Savory Pastries",
+      "description": "Buttery croissants with creamy brie and soft sweetness. Flaky, luscious, effortlessly charming.",
+      "price": 0
+    },
+    {
+      "id": 72,
+      "name": "Spinach & Gruyère Puff Pastry Twists",
+      "categoryId": "Galentines Savory Pastries",
+      "description": "Golden pastry with savory greens and nutty cheese. Warm, aromatic, and endlessly snackable.",
+      "price": 0
+    },
+    {
+      "id": 73,
+      "name": "Raspberry Blush Tarts",
+      "categoryId": "Galentines Tarts",
+      "description": "Silky cream filling with bright raspberry jewel tones. Vibrant, playful, visually irresistible.",
+      "price": 0
+    },
+    {
+      "id": 74,
+      "name": "Vanilla Rose Custard Tarts",
+      "categoryId": "Galentines Tarts",
+      "description": "Smooth custard with delicate floral sweetness. Soft, romantic, and perfectly elegant.",
+      "price": 0
+    },
+    {
+      "id": 75,
+      "name": "Turkey, Brie & Raspberry Preserve",
+      "categoryId": "Galentines Tea Sandwiches",
+      "description": "Tender sliced turkey with creamy brie and a delicate swipe of raspberry preserve. Savory-sweet, rich, and beautifully balanced.",
+      "price": 0
+    },
+    {
+      "id": 76,
+      "name": "Roasted Red Pepper & Whipped Goat Cheese",
+      "categoryId": "Galentines Tea Sandwiches",
+      "description": "Sweet roasted peppers with tangy whipped goat cheese on soft multigrain bread. Bright, creamy, and effortlessly sophisticated.",
+      "price": 0
+    },
+    {
+      "id": 77,
+      "name": "Strawberry & Candied Nut Green Salad",
+      "categoryId": "Galentines Salads",
+      "description": "Tender greens with sweet berries and delicate crunch. Bright, cheerful, perfectly festive.",
+      "price": 0
+    },
+    {
+      "id": 78,
+      "name": "Citrus & Honey Vinaigrette Salad",
+      "categoryId": "Galentines Salads",
+      "description": "Fresh greens with luminous citrus accents. Light, refreshing, palate-brightening.",
+      "price": 0
+    },
+    {
+      "id": 79,
+      "name": "Rainbow Citrus Earl Grey",
+      "categoryId": "Pride Teas",
+      "description": "Classic Earl Grey brightened with vibrant citrus peel and soft floral notes. Luminous, lively, and endlessly refreshing.",
+      "price": 6
+    },
+    {
+      "id": 80,
+      "name": "Blushing Berry Black Tea",
+      "categoryId": "Pride Teas",
+      "description": "Smooth black tea infused with ripe red berries. Playful, bright, and beautifully bold.",
+      "price": 6
+    },
+    {
+      "id": 81,
+      "name": "Peach Bellini White Tea",
+      "categoryId": "Pride Teas",
+      "description": "Delicate white tea layered with juicy orchard peach aromatics. Light, fragrant, and brunch-perfect.",
+      "price": 6
+    },
+    {
+      "id": 82,
+      "name": "Jasmine Silk Green Tea",
+      "categoryId": "Pride Teas",
+      "description": "Silky green tea scented with jasmine blossoms. Soft, aromatic, effortlessly elegant.",
+      "price": 6
+    },
+    {
+      "id": 83,
+      "name": "Vanilla Cream Rooibos",
+      "categoryId": "Pride Teas",
+      "description": "Naturally caffeine-free rooibos with warm vanilla notes. Comforting, smooth, and gently indulgent.",
+      "price": 6
+    },
+    {
+      "id": 84,
+      "name": "Velvet Vanilla Latte",
+      "categoryId": "Pride Coffee Drinks",
+      "description": "Espresso with steamed milk and warm vanilla. Smooth, cozy, universally adored.",
+      "price": 7
+    },
+    {
+      "id": 85,
+      "name": "Caramel Silk Iced Coffee",
+      "categoryId": "Pride Coffee Drinks",
+      "description": "Chilled coffee with soft caramel sweetness. Refreshing, lightly indulgent.",
+      "price": 7
+    },
+    {
+      "id": 86,
+      "name": "Rose Mocha",
+      "categoryId": "Pride Coffee Drinks",
+      "description": "Espresso, chocolate, milk, and delicate rose essence. Floral, decadent, delightfully dramatic.",
+      "price": 8
+    },
+    {
+      "id": 87,
+      "name": "Honey Cinnamon Cappuccino",
+      "categoryId": "Pride Coffee Drinks",
+      "description": "Espresso with airy foam and gentle spice. Warm, aromatic, brunch-perfect.",
+      "price": 7
+    },
+    {
+      "id": 88,
+      "name": "The Glittering Mimosa",
+      "categoryId": "Pride Cocktails",
+      "description": "Sparkling wine with fresh orange and a hint of edible shimmer. Bright, bubbly, and made for celebration.",
+      "price": 12
+    },
+    {
+      "id": 89,
+      "name": "Blushing Pom Mimosa",
+      "categoryId": "Pride Cocktails",
+      "description": "Pomegranate juice, fresh orange, and chilled bubbles. Bright, playful, and celebration-ready.",
+      "price": 12
+    },
+    {
+      "id": 90,
+      "name": "The Runway Bellini",
+      "categoryId": "Pride Cocktails",
+      "description": "Peach purée, sparkling wine, and delicate floral aromatics. Soft, juicy, and fabulously chic.",
+      "price": 13
+    },
+    {
+      "id": 91,
+      "name": "The Classic Bloody Mary",
+      "categoryId": "Pride Cocktails",
+      "description": "Vodka, house spice blend, tomato, citrus, and savory garnish. Bold, bracing, timelessly fabulous.",
+      "price": 13
+    },
+    {
+      "id": 92,
+      "name": "The Showstopper Sparkler",
+      "categoryId": "Pride Italian Sodas",
+      "description": "Blushing berry tea, raspberry syrup, and sparkling water. Bright, juicy, and camera-ready.",
+      "price": 6
+    },
+    {
+      "id": 93,
+      "name": "The Garden Glam Fizz",
+      "categoryId": "Pride Italian Sodas",
+      "description": "Peach white tea, vanilla, and lively bubbles. Soft, refreshing, effortlessly pretty.",
+      "price": 6
+    },
+    {
+      "id": 94,
+      "name": "Confetti Vanilla Cream Puffs",
+      "categoryId": "Pride Sweet Pastries",
+      "description": "Airy choux pastry with silky vanilla cream. Light, festive, joyfully indulgent.",
+      "price": 5
+    },
+    {
+      "id": 95,
+      "name": "Berry Chantilly Cake Bites",
+      "categoryId": "Pride Sweet Pastries",
+      "description": "Fluffy sponge with whipped cream and fresh berries. Soft, bright, and irresistibly celebratory.",
+      "price": 5
+    },
+    {
+      "id": 96,
+      "name": "Bacon, Gruyère & Egg Puff Pastry Bites",
+      "categoryId": "Pride Savory Pastries",
+      "description": "Flaky pastry filled with smoked bacon, nutty Gruyère, and soft scrambled eggs. Rich, buttery, and unapologetically brunch.",
+      "price": 6
+    },
+    {
+      "id": 97,
+      "name": "Sausage & Herb Breakfast Rolls",
+      "categoryId": "Pride Savory Pastries",
+      "description": "Golden pastry spirals with savory sausage, fresh herbs, and creamy cheese. Warm, aromatic, endlessly satisfying.",
+      "price": 6
+    },
+    {
+      "id": 98,
+      "name": "Vanilla Almond Biscotti",
+      "categoryId": "Pride Biscotti",
+      "description": "Classic crisp biscotti with warm vanilla and toasted almond notes. Delicate, refined, and timelessly elegant.",
+      "price": 3
+    },
+    {
+      "id": 99,
+      "name": "Chocolate Hazelnut Biscotti",
+      "categoryId": "Pride Biscotti",
+      "description": "Rich chocolate biscotti studded with toasted hazelnuts. Deep, indulgent, and beautifully satisfying.",
+      "price": 3
+    },
+    {
+      "id": 100,
+      "name": "Citrus Pistachio Biscotti",
+      "categoryId": "Pride Biscotti",
+      "description": "Bright citrus-kissed biscotti with roasted pistachios. Light, aromatic, and gently vibrant.",
+      "price": 3
+    },
+    {
+      "id": 101,
+      "name": "White Chocolate Cranberry Biscotti",
+      "categoryId": "Pride Biscotti",
+      "description": "Buttery biscotti with sweet cranberry and creamy white chocolate accents. Playful, festive, and delightfully sweet.",
+      "price": 3
+    },
+    {
+      "id": 102,
+      "name": "Espresso Chocolate Chip Biscotti",
+      "categoryId": "Pride Biscotti",
+      "description": "Crisp biscotti infused with espresso and dark chocolate chips. Bold, rich, and perfectly suited for coffee service.",
+      "price": 3
+    },
+    {
+      "id": 103,
+      "name": "Strawberry Vanilla Cream Tarts",
+      "categoryId": "Pride Tarts",
+      "description": "Fresh strawberries over silky vanilla cream. Bright, luscious, visually dazzling.",
+      "price": 6
+    },
+    {
+      "id": 104,
+      "name": "Lemon Berry Glaze Tarts",
+      "categoryId": "Pride Tarts",
+      "description": "Smooth citrus curd with vibrant berry accents. Playful, sunny, delightfully bold.",
+      "price": 6
+    },
+    {
+      "id": 105,
+      "name": "The Showgirl Omelet",
+      "categoryId": "Pride Omelets",
+      "description": "Fluffy eggs filled with smoked bacon, Gruyère, and fresh chives. Rich, savory, and unapologetically glamorous.",
+      "price": 12
+    },
+    {
+      "id": 106,
+      "name": "The Garden Party Omelet",
+      "categoryId": "Pride Omelets",
+      "description": "Tender eggs with spinach, goat cheese, and delicate herbs. Light, creamy, effortlessly elegant.",
+      "price": 12
+    },
+    {
+      "id": 107,
+      "name": "The Diva Omelet",
+      "categoryId": "Pride Omelets",
+      "description": "Savory sausage, roasted peppers, caramelized onions, and melted cheese. Bold, dramatic, and impossible to ignore.",
+      "price": 13
+    },
+    {
+      "id": 108,
+      "name": "Mixed Mushroom & Herb Omelet",
+      "categoryId": "Pride Omelets",
+      "description": "Fluffy eggs folded with a medley of sautéed mixed mushrooms, delicate herbs, and melted cheese. Savory, aromatic, and quietly luxurious — a deeply satisfying brunch classic.",
+      "price": 13
+    },
+    {
+      "id": 109,
+      "name": "Strawberries & Cream Waffles",
+      "categoryId": "Pride Waffles",
+      "description": "Golden waffles topped with fresh strawberries and softly whipped cream. Bright, luscious, delightfully celebratory.",
+      "price": 11
+    },
+    {
+      "id": 110,
+      "name": "Maple Butter & Crispy Bacon Waffles",
+      "categoryId": "Pride Waffles",
+      "description": "Warm waffles with maple drizzle, whipped butter, and crisp bacon. Sweet, savory, utterly irresistible.",
+      "price": 12
+    },
+    {
+      "id": 111,
+      "name": "Chocolate Velvet Waffles",
+      "categoryId": "Pride Waffles",
+      "description": "Chocolate-kissed waffles topped with fresh blackberries, finished with powdered sugar and a silky chocolate drizzle. Decadent, dramatic, and irresistibly luxurious.",
+      "price": 12
+    },
+    {
+      "id": 112,
+      "name": "Classic Rose & Ribbon Benedict",
+      "categoryId": "Pride Eggs Benedict",
+      "description": "Toasted English muffin with smoked ham, perfectly poached eggs, and silky hollandaise. Timeless, rich, and effortlessly elegant.",
+      "price": 13
+    },
+    {
+      "id": 113,
+      "name": "Florentine Benedict",
+      "categoryId": "Pride Eggs Benedict",
+      "description": "Tender sautéed spinach, poached eggs, and velvety hollandaise on a toasted muffin. Light, creamy, and beautifully balanced.",
+      "price": 13
+    },
+    {
+      "id": 114,
+      "name": "The Classic Lox & Cream Cheese",
+      "categoryId": "Pride Bagels",
+      "description": "Toasted bagel with silky smoked salmon, whipped cream cheese, capers, and red onion. Timeless, elegant, and effortlessly luxurious.",
+      "price": 11
+    },
+    {
+      "id": 115,
+      "name": "Bacon, Egg & Cheese Bagel",
+      "categoryId": "Pride Bagels",
+      "description": "Warm bagel layered with fluffy eggs, melted cheese, and crisp bacon. Rich, savory, unapologetically brunch.",
+      "price": 10
+    },
+    {
+      "id": 116,
+      "name": "Sausage, Egg & Gruyère Bagel",
+      "categoryId": "Pride Bagels",
+      "description": "Savory sausage with soft eggs and nutty Gruyère on a toasted bagel. Hearty, aromatic, deeply satisfying.",
+      "price": 10
+    },
+    {
+      "id": 117,
+      "name": "Garden Veggie Bagel",
+      "categoryId": "Pride Bagels",
+      "description": "Whipped herb cream cheese with tomato, cucumber, greens, and sprouts. Bright, crisp, and delightfully refreshing.",
+      "price": 9
+    },
+    {
+      "id": 118,
+      "name": "Sausage & Gravy Biscuits",
+      "categoryId": "Pride Biscuits",
+      "description": "Tender biscuits topped with creamy sausage gravy. Rich, decadent, deeply satisfying.",
+      "price": 10
+    },
+    {
+      "id": 119,
+      "name": "Fried Chicken Biscuit Sliders",
+      "categoryId": "Pride Biscuits",
+      "description": "Mini biscuits with crispy fried chicken and a light drizzle of honey. Crisp, juicy, irresistibly celebratory.",
+      "price": 11
+    },
+    {
+      "id": 120,
+      "name": "Crispy Bacon & Tomato Jam Biscuits",
+      "categoryId": "Pride Biscuits",
+      "description": "Smoky bacon and fluffy eggs paired with rich house tomato jam on tender biscuits. Bold, savory, deeply indulgent.",
+      "price": 11
+    },
+    {
+      "id": 121,
+      "name": "Midnight Masquerade",
+      "categoryId": "Halloween Teas",
+      "description": "Black tea, vanilla bean, cocoa nibs, soft spice. A velvety black tea with warm vanilla and subtle chocolate undertones. Smooth, rich, and delightfully mysterious.",
+      "price": 6.5
+    },
+    {
+      "id": 122,
+      "name": "Witch’s Orchard",
+      "categoryId": "Halloween Teas",
+      "description": "Rooibos, baked apple, cinnamon, caramel pieces. A naturally caffeine-free blend reminiscent of caramel apples and autumn evenings. Comforting, sweetly spiced, and irresistibly cozy.",
+      "price": 6
+    },
+    {
+      "id": 123,
+      "name": "Phantom’s Lavender Grey",
+      "categoryId": "Halloween Teas",
+      "description": "Earl Grey tea, lavender buds, bergamot oil. A hauntingly aromatic twist on a classic. Bright citrus notes softened by delicate lavender for a refined floral finish.",
+      "price": 6.75
+    },
+    {
+      "id": 124,
+      "name": "Pumpkin Velvet Reserve",
+      "categoryId": "Halloween Teas",
+      "description": "Black tea, pumpkin, clove, cinnamon, cream essence. A lush autumn blend layered with gentle spice and creamy warmth. Decadent, fragrant, and unmistakably seasonal.",
+      "price": 6.75
+    },
+    {
+      "id": 125,
+      "name": "Blood Moon Citrus",
+      "categoryId": "Halloween Teas",
+      "description": "Black tea, blood orange peel, hibiscus, natural citrus oils. Bold, vivid, and dramatically bright. Tart citrus notes with a deep crimson hue — as striking as it is refreshing.",
+      "price": 6.75
+    },
+    {
+      "id": 126,
+      "name": "The Morticia Addams",
+      "categoryId": "Halloween Cocktails",
+      "description": "Black vodka, elderflower liqueur, blackberry purée, splash of lemon, shimmering dark sugar rim. A dark, velvety cocktail with floral elegance and deep berry richness. Smooth, poised, and dangerously enchanting — much like its namesake.",
+      "price": 14
+    },
+    {
+      "id": 127,
+      "name": "The Bride of Frankenstein",
+      "categoryId": "Halloween Cocktails",
+      "description": "Gin, electric-blue curaçao, white peach, citrus, sparkling wine. Luminous, vibrant, and crackling with energy. Bright fruit and bubbles meet a striking hue for a cocktail that feels alive with drama.",
+      "price": 14
+    },
+    {
+      "id": 128,
+      "name": "The Lily Munster",
+      "categoryId": "Halloween Cocktails",
+      "description": "Vodka, blood orange, vanilla, cream float. Playful, charming, and delightfully retro. Bright citrus softened by creamy sweetness for a cocktail that’s both lively and comforting.",
+      "price": 13.5
+    },
+    {
+      "id": 129,
+      "name": "The Sally",
+      "categoryId": "Halloween Cocktails",
+      "description": "Ingredients: Cherry liqueur, vanilla vodka, pomegranate juice, soft spice, sugared garnish. Softly sweet with a hint of wistful warmth. A delicate balance of tart fruit and gentle sweetness — colorful, curious, and quietly lovely.",
+      "price": 13.5
+    },
+    {
+      "id": 130,
+      "name": "Elvira, Mistress of the Dark",
+      "categoryId": "Halloween Cocktails",
+      "description": "Tequila, dark berry liqueur, black cherry, citrus, dramatic salted rim. Bold, seductive, and unapologetically dramatic. Deep fruit and spirited brightness collide in a cocktail that absolutely commands attention.",
+      "price": 14.5
+    },
+    {
+      "id": 131,
+      "name": "The Gomez Addams",
+      "categoryId": "Halloween Italian Sodas",
+      "description": "Blood orange syrup, black cherry, splash of vanilla, sparkling water. Bold, romantic, and impossible to ignore. Deep fruit flavors with a smooth, charming finish — passionate and slightly dramatic.",
+      "price": 7.5
+    },
+    {
+      "id": 132,
+      "name": "The Frankenstein",
+      "categoryId": "Halloween Italian Sodas",
+      "description": "Green apple syrup, lime, electric citrus blend, sparkling water. Vivid, crackling, and unmistakably alive. Bright tartness and lively citrus collide in a shockingly refreshing creation.",
+      "price": 7.5
+    },
+    {
+      "id": 133,
+      "name": "The Herman Munster",
+      "categoryId": "Halloween Italian Sodas",
+      "description": "Blue raspberry syrup, cream soda, sparkling water. Playful, nostalgic, and delightfully larger than life. Sweet, fizzy, and joyfully retro with a bright pop of color.",
+      "price": 7.25
+    },
+    {
+      "id": 134,
+      "name": "The Jack Skellington",
+      "categoryId": "Halloween Italian Sodas",
+      "description": "White peach syrup, lemon-lime soda, shimmering sugar garnish. Light, bright, and eerily elegant. Soft orchard sweetness with lively sparkle — curious, charming, and just a bit mischievous.",
+      "price": 7.25
+    },
+    {
+      "id": 135,
+      "name": "The Gonk",
+      "categoryId": "Halloween Italian Sodas",
+      "description": "Blackberry syrup, vanilla cream, sparkling water. Sweet, soft, and unexpectedly adorable. Lush berry richness meets creamy smoothness for a soda that’s playful and irresistible.",
+      "price": 7.5
+    },
+    {
+      "id": 136,
+      "name": "Black Velvet Candy Apple",
+      "categoryId": "Halloween Enchanted Apples",
+      "description": "Glossy black sugar shell over a crisp apple, finished with subtle edible shimmer. Dramatic, striking, and deliciously crisp — a classic confection with gothic glamour.",
+      "price": 10
+    },
+    {
+      "id": 137,
+      "name": "Poisoned Berry Candy Apple",
+      "categoryId": "Halloween Enchanted Apples",
+      "description": "Traditional candy-coated apple dipped in jewel-toned berry glaze. Vivid, glassy, and wickedly playful with a bright fruit finish.",
+      "price": 9.5
+    },
+    {
+      "id": 138,
+      "name": "Golden Hour Caramel Apple",
+      "categoryId": "Halloween Enchanted Apples",
+      "description": "Buttery caramel-draped apple with crushed toasted nuts and delicate sea salt. Rich, velvety, and indulgently balanced between sweet and savory.",
+      "price": 10.5
+    },
+    {
+      "id": 139,
+      "name": "Masquerade Chocolate Caramel Apple",
+      "categoryId": "Halloween Enchanted Apples",
+      "description": "Soft caramel-coated apple finished with dark chocolate drizzle. Decadent, elegant, and irresistibly layered with deep cocoa richness.",
+      "price": 11
+    },
+    {
+      "id": 140,
+      "name": "Midnight Chocolate Drizzle",
+      "categoryId": "Halloween Popcorn Balls",
+      "description": "Caramel-bound popcorn, dark chocolate drizzle, subtle sea salt Rich, glossy, and decadently crisp with a perfect sweet-salty balance.",
+      "price": 7
+    },
+    {
+      "id": 141,
+      "name": "Witch’s Toffee Crunch",
+      "categoryId": "Halloween Popcorn Balls",
+      "description": "Toffee-coated popcorn, crushed praline, warm vanilla notes Golden, buttery, and irresistibly crunchy with deep confectionery warmth.",
+      "price": 7
+    },
+    {
+      "id": 142,
+      "name": "Gilded Cheddar Charm",
+      "categoryId": "Halloween Popcorn Balls",
+      "description": "Aged cheddar glaze, buttered popcorn, delicate seasoning Bold, savory, and deeply satisfying with a refined cheese-forward bite.",
+      "price": 7.5
+    },
+    {
+      "id": 143,
+      "name": "Smoky Maple Bacon Ball",
+      "categoryId": "Halloween Popcorn Balls",
+      "description": "Light maple glaze, smoked bacon crumbles, buttered popcorn Savory, smoky, and subtly sweet — indulgent, aromatic, and wildly addictive.",
+      "price": 8
+    },
+    {
+      "id": 144,
+      "name": "Midnight Flutter Pops",
+      "categoryId": "Halloween Cake Pops",
+      "description": "Chocolate cake, dark chocolate coating, delicate sugar accents Rich, moist chocolate cake enrobed in silky dark chocolate — playful, dramatic, and irresistibly decadent.",
+      "price": 4.5
+    },
+    {
+      "id": 145,
+      "name": "Pumpkin Patch Pops",
+      "categoryId": "Halloween Cake Pops",
+      "description": "Vanilla spice cake, orange chocolate shell, subtle warm spice Soft vanilla-spice cake wrapped in a vibrant chocolate shell — festive, cheerful, and warmly indulgent.",
+      "price": 4.5
+    },
+    {
+      "id": 146,
+      "name": "Phantom Vanilla Pops",
+      "categoryId": "Halloween Cake Pops",
+      "description": "Vanilla cake, creamy chocolate coating, soft sweetness Light, tender vanilla cake with a smooth confectionery finish — sweet, delicate, and delightfully whimsical.",
+      "price": 4.25
+    },
+    {
+      "id": 147,
+      "name": "Black Cat Noir Pops",
+      "categoryId": "Halloween Cake Pops",
+      "description": "Chocolate cake, dark chocolate coating, crisp sugar details Deep chocolate richness beneath a glossy dark shell — sleek, mischievous, and hauntingly delicious.",
+      "price": 4.5
+    },
+    {
+      "id": 148,
+      "name": "Graveyard Smash Slider",
+      "categoryId": "Halloween Sliders",
+      "description": "Beef slider with sharp cheddar, caramelized onion, dill pickles, and a smoky “graveyard” sauce on a toasted brioche bun. Served with crispy seasoned fries for maximum late-night magic.",
+      "price": 15.5
+    },
+    {
+      "id": 149,
+      "name": "Vampire’s Kiss Slider",
+      "categoryId": "Halloween Sliders",
+      "description": "Beef slider with pepper jack, roasted red pepper, arugula, and a garlicky aioli on a soft bun. Served with parmesan-garlic potato wedges that bite back (in a good way).",
+      "price": 15.5
+    },
+    {
+      "id": 150,
+      "name": "Witchfire Hot Chicken Slider",
+      "categoryId": "Halloween Sliders",
+      "description": "Spicy fried chicken slider tossed in a fiery house glaze with crunchy slaw and pickles on a toasted bun. Served with crispy tots that can handle the heat.",
+      "price": 15
+    },
+    {
+      "id": 151,
+      "name": "Moonlit Herb Chicken Slider",
+      "categoryId": "Halloween Sliders",
+      "description": "Roasted herb chicken slider with melted provolone, baby greens, and a lemony herb mayo on a soft bun. Served with rosemary-garlic fries for an elegant, spooky little side quest.",
+      "price": 14.75
+    },
+    {
+      "id": 152,
+      "name": "Pumpkin Patch Veggie Slider",
+      "categoryId": "Halloween Sliders",
+      "description": "Veggie burger slider with smoked gouda, crisp lettuce, tomato, and a tangy maple-mustard sauce on a toasted bun. Served with sweet potato fries for cozy autumn vibes.",
+      "price": 14.5
+    },
+    {
+      "id": 153,
+      "name": "Velvet Fig & Prosciutto",
+      "categoryId": "Halloween Flatbread Pizzas",
+      "description": "Prosciutto, fresh mozzarella, fig preserves, arugula, and a delicate balsamic glaze baked over crisp flatbread. Savory, silky, and beautifully balanced between sweet and salty with a lightly peppery finish. Served with a simple baby greens salad tossed in a light champagne vinaigrette to keep the pairing fresh and elegant.",
+      "price": 16.5
+    },
+    {
+      "id": 154,
+      "name": "Midnight Truffle Mushroom",
+      "categoryId": "Halloween Flatbread Pizzas",
+      "description": "A medley of roasted mushrooms, melted cheeses, and subtle truffle essence layered over golden flatbread. Earthy, aromatic, and quietly luxurious with deep savory warmth. Served with a crisp herb-dressed greens salad that brightens the richness and adds a refreshing contrast.",
+      "price": 16.75
+    },
+    {
+      "id": 155,
+      "name": "Blushing Pear & Brie",
+      "categoryId": "Halloween Flatbread Pizzas",
+      "description": "Creamy brie, ripe pear slices, toasted walnuts, and delicate honey baked until warm and luscious. Soft, lightly sweet, and indulgently smooth with gentle crunch. Served with a lightly dressed arugula salad whose peppery notes balance the silky cheese and fruit.",
+      "price": 16.25
+    },
+    {
+      "id": 156,
+      "name": "Smokeshow Bacon & Caramelized Onion",
+      "categoryId": "Halloween Flatbread Pizzas",
+      "description": "Smoked bacon, slow-cooked caramelized onions, melted cheese, and a subtle savory glaze over crisp flatbread. Rich, smoky, and deeply satisfying with irresistible brunch or late-evening appeal. Served with a bright mixed greens salad in a white wine vinaigrette to cut through the richness.",
+      "price": 16.75
+    },
+    {
+      "id": 157,
+      "name": "Garden Pesto Chicken",
+      "categoryId": "Halloween Flatbread Pizzas",
+      "description": "Tender roasted chicken, basil pesto, melted mozzarella, and roasted tomatoes baked over warm flatbread. Herbaceous, vibrant, and comfortingly savory with a lively, aromatic finish. Served with a refreshing cucumber and greens salad that complements the bright pesto and keeps the dish feeling light.",
+      "price": 16.5
+    },
+    {
+      "id": 158,
+      "name": "Pride & Prejudice",
+      "categoryId": "JaneBday Teas",
+      "description": "Black tea, bergamot peel, rose petals, subtle vanilla. A poised and balanced blend with gentle citrus brightness and soft floral undertones. Elegant at first impression, yet warmer and more layered as it lingers — much like Elizabeth and Darcy themselves.",
+      "price": 6.75
+    },
+    {
+      "id": 159,
+      "name": "Sense & Sensibility",
+      "categoryId": "JaneBday Teas",
+      "description": "Black tea, chamomile, soft lavender, honeyed notes. A graceful harmony of structure and softness. Smooth black tea grounds delicate florals, creating a refined yet tender cup that balances reason with quiet romance.",
+      "price": 6.75
+    },
+    {
+      "id": 160,
+      "name": "Emma",
+      "categoryId": "JaneBday Teas",
+      "description": "Green tea, peach pieces, elderflower, light citrus. Bright, charming, and beautifully composed. A lively green base with orchard sweetness and floral lift — confident, polished, and ever so slightly playful.",
+      "price": 6.5
+    },
+    {
+      "id": 161,
+      "name": "Persuasion",
+      "categoryId": "JaneBday Teas",
+      "description": "White tea, jasmine blossom, pear essence. Delicate and understated with quiet depth. Silken white tea unfolds gently, revealing soft florals and subtle fruit in a cup that rewards patience.",
+      "price": 6.75
+    },
+    {
+      "id": 162,
+      "name": "Mansfield Park",
+      "categoryId": "JaneBday Teas",
+      "description": "Assam black tea, clove, dried apple, warm spice. Composed, steady, and quietly complex. A structured black tea with restrained warmth and gentle spice — dignified, thoughtful, and enduring.",
+      "price": 6.75
+    },
+    {
+      "id": 163,
+      "name": "Northanger Abbey",
+      "categoryId": "JaneBday Teas",
+      "description": "Black tea, blood orange peel, hibiscus, soft berry notes. Vivid and spirited with a dramatic flourish. Bright citrus and jewel-toned fruit bring playful intrigue to a classic base — lively, imaginative, and delightfully bold.",
+      "price": 6.75
+    },
+    {
+      "id": 164,
+      "name": "The Elizabeth Bennet",
+      "categoryId": "JaneBday Cocktails",
+      "description": "A lively, lightly sparkling cocktail that balances sharp intelligence with unexpected softness. Ingredients: Earl Grey tea–infused gin, fresh lemon juice, honey syrup, orange bitters, topped with dry prosecco. Clever, refreshing, and just a little bit subversive—much like Elizabeth herself.",
+      "price": 12
+    },
+    {
+      "id": 165,
+      "name": "The Emma Woodhouse",
+      "categoryId": "JaneBday Cocktails",
+      "description": "Elegant, aromatic, and confidently composed—perhaps too confident. Ingredients: Jasmine green tea–infused vodka, elderflower liqueur, white peach purée, lemon juice, finished with a rose-petal garnish. Pretty, polished, and persuasive—this cocktail thinks it knows exactly what you want.",
+      "price": 13.5
+    },
+    {
+      "id": 166,
+      "name": "The Anne Elliot",
+      "categoryId": "JaneBday Cocktails",
+      "description": "A gentle, warming drink that rewards patience and quiet depth. Ingredients: Chamomile tea, aged rum, vanilla syrup, a touch of pear brandy, and a dash of nutmeg. Softly floral and comforting, with a slow-building richness—reserved at first sip, unforgettable by the last.",
+      "price": 14
+    },
+    {
+      "id": 167,
+      "name": "The Elinor Dashwood",
+      "categoryId": "JaneBday Cocktails",
+      "description": "Structured, balanced, and impeccably restrained—until you notice the emotional undercurrent. Ingredients: Black tea–infused bourbon, apricot liqueur, lemon peel, and a whisper of clove. Steady and sensible on the surface, with warmth and depth quietly revealed.",
+      "price": 11.5
+    },
+    {
+      "id": 168,
+      "name": "The Lydia Bennet",
+      "categoryId": "JaneBday Italian Sodas",
+      "description": "A lively, flirtatious soda with plenty of sparkle. Ingredients: Regency Breakfast black tea shaken with blood orange syrup, a splash of vanilla, and topped with sparkling water. Bright, bold, and a little impulsive — this one refuses to be ignored.",
+      "price": 6
+    },
+    {
+      "id": 169,
+      "name": "The Mr. Knightley",
+      "categoryId": "JaneBday Italian Sodas",
+      "description": "Grounded, refreshing, and impeccably balanced. Ingredients: Minted Moroccan Green Tea blended with fresh cucumber, lime juice, and soda water. Cool-headed and dependable, with a quiet depth beneath the freshness.",
+      "price": 6.25
+    },
+    {
+      "id": 170,
+      "name": "The Marianne Dashwood",
+      "categoryId": "JaneBday Italian Sodas",
+      "description": "Expressive, aromatic, and unapologetically romantic. Ingredients: Lavender Grey Cream tea infused with lemon, a touch of honey syrup, and sparkling water. Floral, emotional, and dramatic in the best possible way.",
+      "price": 6.5
+    },
+    {
+      "id": 171,
+      "name": "The Catherine Morland",
+      "categoryId": "JaneBday Italian Sodas",
+      "description": "Playful, bright, and delightfully imaginative. Ingredients: Rose & Lychee Blush green tea paired with raspberry syrup and soda water. Light, fruity, and charming — sweeter than expected, but never naïve.",
+      "price": 5.75
+    },
+    {
+      "id": 172,
+      "name": "Regency Rose Reverie",
+      "categoryId": "JaneBday Cupcakes",
+      "description": "Vanilla sponge, rosewater, fresh raspberries, rose buttercream. A tender vanilla cake delicately scented with rosewater, crowned with soft rose buttercream and fresh raspberry brightness. Fragrant, romantic, and unmistakably elegant.",
+      "price": 5
+    },
+    {
+      "id": 173,
+      "name": "Lavender Lace",
+      "categoryId": "JaneBday Cupcakes",
+      "description": "Lavender-infused sponge, vanilla bean, honey buttercream. Light vanilla cake gently infused with culinary lavender and finished with smooth honey buttercream. Softly floral, subtly sweet, and beautifully balanced.",
+      "price": 4.75
+    },
+    {
+      "id": 174,
+      "name": "Elderflower Garden Party",
+      "categoryId": "JaneBday Cupcakes",
+      "description": "Lemon sponge, elderflower essence, whipped cream frosting. Bright lemon cake kissed with elderflower and topped with airy cream frosting. Fresh, luminous, and perfectly suited for afternoon celebration.",
+      "price": 4.75
+    },
+    {
+      "id": 175,
+      "name": "Violet Velvet",
+      "categoryId": "JaneBday Cupcakes",
+      "description": "Vanilla cake, candied violet, delicate berry buttercream. Classic vanilla sponge layered with soft berry frosting and accented with candied violet notes. Graceful, lightly perfumed, and delightfully charming.",
+      "price": 4.75
+    },
+    {
+      "id": 176,
+      "name": "Orange Blossom Sonata",
+      "categoryId": "JaneBday Cupcakes",
+      "description": "Orange-infused sponge, orange blossom water, citrus glaze. Tender citrus cake scented with orange blossom and finished with a glossy citrus glaze. Light, fragrant, and radiant with gentle sweetness.",
+      "price": 4.75
+    },
+    {
+      "id": 177,
+      "name": "Chamomile Honey Heirloom",
+      "categoryId": "JaneBday Cupcakes",
+      "description": "Chamomile-infused vanilla sponge, wildflower honey, honey buttercream. A tender vanilla cake gently steeped with chamomile and sweetened with warm wildflower honey, finished with silky honey buttercream. Softly aromatic, delicately sweet, and quietly sophisticated — like a peaceful afternoon in the English countryside.",
+      "price": 5
+    },
+    {
+      "id": 178,
+      "name": "The Darcy Reserve",
+      "categoryId": "JaneBday Popcorn",
+      "description": "Buttered popcorn, aged white cheddar, cracked black pepper. Refined, bold, and quietly commanding. Sharp cheddar and peppery warmth create a savory blend that is confident without being ostentatious.",
+      "price": 6.5
+    },
+    {
+      "id": 179,
+      "name": "Pemberley Herb Garden",
+      "categoryId": "JaneBday Popcorn",
+      "description": "Buttered popcorn, rosemary, thyme, sea salt. Aromatic and elegant with delicate herbal notes. Light, fragrant, and perfectly suited to a civilized gathering.",
+      "price": 6.25
+    },
+    {
+      "id": 180,
+      "name": "Colonel Brandon’s Truffle",
+      "categoryId": "JaneBday Popcorn",
+      "description": "Buttered popcorn, subtle truffle essence, sea salt. Deep, earthy, and understatedly luxurious. A savory indulgence that speaks softly but leaves a lasting impression.",
+      "price": 6.75
+    },
+    {
+      "id": 181,
+      "name": "Miss Bennet’s Toffee Delight",
+      "categoryId": "JaneBday Popcorn",
+      "description": "Caramel-coated popcorn, toasted almonds, vanilla warmth. Golden, buttery, and delightfully crisp. Sweet caramel richness balanced with nutty depth for a charming confection.",
+      "price": 6.75
+    },
+    {
+      "id": 182,
+      "name": "The Bath Assembly",
+      "categoryId": "JaneBday Popcorn",
+      "description": "White chocolate drizzle, dried strawberry pieces, soft vanilla notes. Light, festive, and slightly flirtatious. Creamy sweetness with bright berry accents — perfect for celebration.",
+      "price": 6.75
+    },
+    {
+      "id": 183,
+      "name": "Emma’s Orchard Glaze",
+      "categoryId": "JaneBday Popcorn",
+      "description": "Apple-cinnamon glaze, gentle spice, light sugar finish. Warm, fragrant, and comfortingly sweet. A nod to autumn orchards and cozy English afternoons.",
+      "price": 6.5
+    },
+    {
+      "id": 184,
+      "name": "Vanilla Bean Éclairs",
+      "categoryId": "JaneBday Sweet Pastries",
+      "description": "Light choux pastry filled with silky vanilla bean pastry cream and finished with a glossy fondant glaze. Classic, refined, and universally adored—an anchor pastry for any tea spread.",
+      "price": 4.5
+    },
+    {
+      "id": 185,
+      "name": "Rose Pistachio Financiers",
+      "categoryId": "JaneBday Sweet Pastries",
+      "description": "Delicate almond tea cakes enriched with brown butter, studded with pistachio, and lightly perfumed with rose. Elegant, aromatic, and subtly luxurious without being overpowering.",
+      "price": 4
+    },
+    {
+      "id": 186,
+      "name": "Lemon Madeleines",
+      "categoryId": "JaneBday Sweet Pastries",
+      "description": "Traditional shell-shaped sponge cakes with bright lemon zest and a soft, tender crumb. Light, uplifting, and ideal for pairing with black or floral teas.",
+      "price": 3.5
+    },
+    {
+      "id": 187,
+      "name": "Chocolate Hazelnut Mille-Feuille Bites",
+      "categoryId": "JaneBday Sweet Pastries",
+      "description": "Crisp puff pastry layers filled with chocolate-hazelnut cream and finished with a delicate cocoa dusting. Decadent but restrained—rich flavor in an impeccably portioned form.",
+      "price": 5
+    },
+    {
+      "id": 188,
+      "name": "Smoked Salmon & Dill Choux Puffs",
+      "categoryId": "JaneBday Savory Pastries",
+      "description": "Light choux pastry filled with whipped cream cheese, smoked salmon, fresh dill, and lemon zest. Airy, elegant, and unmistakably celebratory.",
+      "price": 5.5
+    },
+    {
+      "id": 189,
+      "name": "Caramelized Onion & Gruyère Palmiers",
+      "categoryId": "JaneBday Savory Pastries",
+      "description": "Buttery puff pastry folded with slow-cooked onions and nutty Gruyère cheese, baked until crisp and golden. Savory-sweet, deeply aromatic, and endlessly snackable.",
+      "price": 4
+    },
+    {
+      "id": 190,
+      "name": "Wild Mushroom & Thyme Vol-au-Vents",
+      "categoryId": "JaneBday Savory Pastries",
+      "description": "Flaky pastry shells filled with sautéed wild mushrooms, shallot, and fresh thyme in a light cream sauce. Earthy, refined, and perfectly balanced for afternoon service.",
+      "price": 5
+    },
+    {
+      "id": 191,
+      "name": "Prosciutto, Fig & Goat Cheese Croissants",
+      "categoryId": "JaneBday Savory Pastries",
+      "description": "Mini croissants filled with tangy goat cheese, fig preserve, and thinly sliced prosciutto. Rich, salty-sweet, and unapologetically indulgent.",
+      "price": 6
+    },
+    {
+      "id": 192,
+      "name": "Classic Cucumber & Herbed Cream Cheese",
+      "categoryId": "JaneBday Tea Sandwiches",
+      "description": "Thin-sliced cucumber layered with whipped cream cheese, fresh dill, and chives on soft white bread, crusts removed. Cool, crisp, and timeless — the anchor of any tea spread.",
+      "price": 3.5
+    },
+    {
+      "id": 193,
+      "name": "Smoked Chicken Salad with Tarragon",
+      "categoryId": "JaneBday Tea Sandwiches",
+      "description": "Tender smoked chicken mixed with lemony mayonnaise, celery, and fresh tarragon on wheat bread. Savory, aromatic, and just hearty enough.",
+      "price": 4
+    },
+    {
+      "id": 194,
+      "name": "Peppered Turkey & Whipped Brie",
+      "categoryId": "JaneBday Tea Sandwiches",
+      "description": "Thin-sliced peppered turkey paired with lightly whipped brie and baby greens on soft white bread. Creamy and refined — a gentle alternative to heavier meats.",
+      "price": 4.25
+    },
+    {
+      "id": 195,
+      "name": "Marinated Artichoke, Pesto & Baby Spinach",
+      "categoryId": "JaneBday Tea Sandwiches",
+      "description": "Marinated artichoke hearts with fresh spinach and basil pesto on multigrain bread. Verdant, savory, and fully plant-based.",
+      "price": 3.75
+    },
+    {
+      "id": 196,
+      "name": "The Garden Party Cup",
+      "categoryId": "JaneBday Crudite Cups",
+      "description": "Rainbow carrots, cucumber spears, sugar snap peas, radishes, whipped herb yogurt dip. Fresh, crisp vegetables paired with a cool, airy herb yogurt. Bright, refreshing, and perfectly suited to a refined afternoon gathering.",
+      "price": 8.5
+    },
+    {
+      "id": 197,
+      "name": "The Pemberley Green",
+      "categoryId": "JaneBday Crudite Cups",
+      "description": "Blanched asparagus, broccolini, celery sticks, green beans, whipped feta with lemon zest. Tender green vegetables with creamy whipped feta for a savory, lightly tangy contrast. Elegant, balanced, and beautifully composed.",
+      "price": 9
+    },
+    {
+      "id": 198,
+      "name": "The Harvest Rose",
+      "categoryId": "JaneBday Crudite Cups",
+      "description": "Roasted golden beets, baby carrots, endive leaves, cucumber, honey–goat cheese dip. Earthy sweetness meets silky goat cheese with a gentle touch of honey. Rich, colorful, and delightfully autumnal.",
+      "price": 9
+    },
+    {
+      "id": 199,
+      "name": "The Herb & Ivory Cup",
+      "categoryId": "JaneBday Crudite Cups",
+      "description": "Cauliflower florets, jicama sticks, zucchini ribbons, cherry tomatoes, white bean & rosemary spread. Clean, lightly sweet vegetables paired with a smooth white bean dip infused with rosemary. Subtle, aromatic, and quietly sophisticated.",
+      "price": 8.75
+    },
+    {
+      "id": 200,
+      "name": "The Midnight Market",
+      "categoryId": "JaneBday Crudite Cups",
+      "description": "Purple carrots, red bell pepper strips, snap peas, cucumber, smoky roasted red pepper hummus. Bold colors and lively crunch paired with a deeply savory roasted pepper hummus. Vibrant, flavorful, and irresistibly snackable.",
+      "price": 8.75
+    },
+    {
+      "id": 201,
+      "name": "The Regency Orchard Cup",
+      "categoryId": "JaneBday Crudite Cups",
+      "description": "Cucumber ribbons, fennel slices, rainbow carrots, red endive leaves, whipped ricotta with dill. Crisp, lightly sweet vegetables paired with silky whipped ricotta brightened with fresh dill. Cool, refined, and beautifully balanced — delicate in flavor but striking in presentation.",
+      "price": 9
+    },
+    {
+      "id": 202,
+      "name": "The Velvet Manor",
+      "categoryId": "JaneBday Personal Charcuterie",
+      "description": "Aged white cheddar, prosciutto, green grapes, rosemary almonds, fig preserves, artisan crackers. Balanced and refined with savory depth and gentle sweetness. A timeless arrangement that feels polished and quietly luxurious.",
+      "price": 17.5
+    },
+    {
+      "id": 203,
+      "name": "The Conservatory Selection",
+      "categoryId": "JaneBday Personal Charcuterie",
+      "description": "Herbed goat cheese, marinated olives, roasted red peppers, cucumber slices, candied pecans, crostini. Fresh, vibrant, and slightly Mediterranean in spirit. Creamy, briny, and herbaceous with bright vegetable contrast.",
+      "price": 17
+    },
+    {
+      "id": 204,
+      "name": "The Grand Assembly",
+      "categoryId": "JaneBday Personal Charcuterie",
+      "description": "Sharp cheddar, salami, smoked almonds, cornichons, honey drizzle, crisp flatbread. Bold and structured with rich, savory notes and subtle sweetness. Confident flavors that linger pleasantly.",
+      "price": 17.5
+    },
+    {
+      "id": 205,
+      "name": "The Orchard Parlour",
+      "categoryId": "JaneBday Personal Charcuterie",
+      "description": "Brie, sliced pear, toasted walnuts, dried cranberries, honey, water crackers. Soft, creamy cheese balanced with fruit and crunch. Warm, gently sweet, and beautifully seasonal.",
+      "price": 17
+    },
+    {
+      "id": 206,
+      "name": "The Nocturne Board",
+      "categoryId": "JaneBday Personal Charcuterie",
+      "description": "Smoked gouda, soppressata, dark chocolate squares, blackberry preserves, sea-salt crackers. Deep, indulgent, and slightly dramatic. A luxurious combination of smoky, savory, and dark sweetness.",
+      "price": 18
+    },
+    {
+      "id": 207,
+      "name": "The Ivory Drawing Room",
+      "categoryId": "JaneBday Personal Charcuterie",
+      "description": "Triple cream cheese, roasted almonds, fresh berries, rosemary flatbread, apricot preserves. Light yet indulgent with creamy richness and bright fruit. Elegant, delicate, and effortlessly charming.",
+      "price": 17.5
+    },
+    {
+      "id": 208,
+      "name": "Velvet Yuletide",
+      "categoryId": "Christmas Holiday Teas",
+      "description": "Black tea, vanilla bean, cocoa nibs, subtle cinnamon. A rich, smooth black tea layered with warm vanilla and a whisper of cocoa. Cozy, elegant, and perfectly suited for candlelit winter evenings.",
+      "price": 6.75
+    },
+    {
+      "id": 209,
+      "name": "Sugarplum Soirée",
+      "categoryId": "Christmas Holiday Teas",
+      "description": "Black tea, plum pieces, soft spice, hint of citrus peel. Deep fruit notes with gentle holiday spice create a festive yet refined cup. Lush, jewel-toned, and delightfully celebratory.",
+      "price": 6.75
+    },
+    {
+      "id": 210,
+      "name": "Mistletoe & Mulberry",
+      "categoryId": "Christmas Holiday Teas",
+      "description": "Green tea, mulberry, cranberry, light floral notes. Bright berries meet a smooth green base for a vibrant winter blend. Fresh, lightly tart, and beautifully balanced.",
+      "price": 6.5
+    },
+    {
+      "id": 211,
+      "name": "Fireside Clementine",
+      "categoryId": "Christmas Holiday Teas",
+      "description": "Rooibos, clementine peel, clove, warm honey notes. Naturally caffeine-free with citrus brightness and gentle spice warmth. Comforting, aromatic, and wonderfully inviting.",
+      "price": 6.5
+    },
+    {
+      "id": 212,
+      "name": "Winter Garland Earl Grey",
+      "categoryId": "Christmas Holiday Teas",
+      "description": "Black tea, bergamot, dried orange peel, cardamom. A festive twist on a classic. Bright citrus and soft spice add holiday depth to a structured, elegant base.",
+      "price": 6.75
+    },
+    {
+      "id": 213,
+      "name": "The Gilded Cranberry Waltz",
+      "categoryId": "Christmas Holiday Teas",
+      "description": "Black tea, cranberry pieces, orange peel, cinnamon bark, delicate vanilla. A festive black tea layered with bright cranberry and warm orange, softened by gentle spice and a whisper of vanilla. Lively yet refined, it feels like a grand holiday evening — vibrant, elegant, and beautifully celebratory.",
+      "price": 6.75
+    },
+    {
+      "id": 214,
+      "name": "The Holly Crown",
+      "categoryId": "Christmas Cocktails",
+      "description": "Gin, cranberry liqueur, fresh lime, rosemary syrup, sparkling wine. Bright cranberry and crisp gin lifted with bubbles and herbal rosemary warmth. Festive, lively, and beautifully balanced between tart and celebratory sparkle.",
+      "price": 14.5
+    },
+    {
+      "id": 215,
+      "name": "Winter Heiress",
+      "categoryId": "Christmas Cocktails",
+      "description": "Vodka, white chocolate liqueur, peppermint essence, cream. Silky and indulgent with cool peppermint brightness. Smooth, luxurious, and perfectly suited to a glamorous holiday evening.",
+      "price": 14
+    },
+    {
+      "id": 216,
+      "name": "The Gilded Fir",
+      "categoryId": "Christmas Cocktails",
+      "description": "Bourbon, maple syrup, orange bitters, smoked cinnamon garnish. Warm, deep, and quietly dramatic. Maple sweetness and subtle citrus lift bourbon into a rich, fireside-worthy cocktail.",
+      "price": 14.5
+    },
+    {
+      "id": 217,
+      "name": "Velvet Snowfall",
+      "categoryId": "Christmas Cocktails",
+      "description": "Vanilla vodka, amaretto, cream, delicate nutmeg finish. Soft, nutty warmth layered with vanilla and a whisper of spice. Cozy, elegant, and gently decadent.",
+      "price": 13.75
+    },
+    {
+      "id": 218,
+      "name": "The Crimson Sash",
+      "categoryId": "Christmas Cocktails",
+      "description": "Dark rum, pomegranate juice, fresh lime, spiced simple syrup. Bold jewel-toned fruit with warming spice and smooth rum depth. Lively yet grounded — festive without being overly sweet.",
+      "price": 14
+    },
+    {
+      "id": 219,
+      "name": "Evergreen Reverie",
+      "categoryId": "Christmas Cocktails",
+      "description": "Tequila blanco, pear nectar, rosemary syrup, fresh citrus. Bright pear sweetness meets herbal evergreen notes for a fresh, modern winter cocktail. Clean, aromatic, and unexpectedly refined.",
+      "price": 14.25
+    },
+    {
+      "id": 220,
+      "name": "Tinsel Fizz",
+      "categoryId": "Christmas Italian Sodas",
+      "description": "Cranberry syrup, orange zest, vanilla syrup, sparkling water. Bright cranberry and citrus sparkle with a soft vanilla finish. Lively, jewel-toned, and beautifully festive without being overly sweet.",
+      "price": 6.75
+    },
+    {
+      "id": 221,
+      "name": "North Pole Nectar",
+      "categoryId": "Christmas Italian Sodas",
+      "description": "White peach syrup, coconut cream, sparkling water. Light orchard sweetness with creamy smoothness and effervescent lift. Soft, snowy, and delightfully refreshing.",
+      "price": 6.75
+    },
+    {
+      "id": 222,
+      "name": "Scarlet Sleigh Ride",
+      "categoryId": "Christmas Italian Sodas",
+      "description": "Pomegranate syrup, raspberry syrup, splash of lime, sparkling water. Bold berry brightness with a tart citrus edge. Vibrant, playful, and perfectly dramatic for holiday gatherings.",
+      "price": 6.75
+    },
+    {
+      "id": 223,
+      "name": "Frosted Sugarplum Sparkler",
+      "categoryId": "Christmas Italian Sodas",
+      "description": "Plum syrup, lemon-lime soda, hint of almond syrup. Deep fruit with a subtle nutty warmth and lively bubbles. Richly colored and irresistibly celebratory.",
+      "price": 6.75
+    },
+    {
+      "id": 224,
+      "name": "Winter Orchard Pop",
+      "categoryId": "Christmas Italian Sodas",
+      "description": "Apple syrup, pear syrup, cinnamon essence, sparkling water. Crisp orchard fruit layered with gentle spice and sparkle. Cozy yet refreshing, like a holiday market in a glass.",
+      "price": 6.75
+    },
+    {
+      "id": 225,
+      "name": "Emerald Garland",
+      "categoryId": "Christmas Italian Sodas",
+      "description": "Kiwi syrup, lime, splash of vanilla, sparkling water. Bright green and lightly tropical with smooth vanilla balance. Fresh, festive, and visually striking on the table.",
+      "price": 6.75
+    },
+    {
+      "id": 226,
+      "name": "The Gingerbread Manor",
+      "categoryId": "Christmas Warm Holiday Drinks",
+      "description": "Dark chocolate, steamed milk, molasses, cinnamon, ginger, clove, whipped cream. Rich chocolate layered with warm molasses and festive spice for a true gingerbread embrace. Deep, cozy, and wonderfully nostalgic with a softly spiced finish.",
+      "price": 8.5
+    },
+    {
+      "id": 227,
+      "name": "Velvet Peppermint Parlor",
+      "categoryId": "Christmas Warm Holiday Drinks",
+      "description": "Dark chocolate, steamed milk, peppermint essence, vanilla, whipped cream. Smooth, luxurious chocolate lifted with cool peppermint brightness. Elegant and refreshing while still decadently creamy.",
+      "price": 8.25
+    },
+    {
+      "id": 228,
+      "name": "The Winter Heiress Cocoa",
+      "categoryId": "Christmas Warm Holiday Drinks",
+      "description": "Milk chocolate, cream, hazelnut essence, subtle sea salt. Silky and indulgent with gentle nutty warmth and a whisper of salt. Refined, comforting, and quietly glamorous.",
+      "price": 8.5
+    },
+    {
+      "id": 229,
+      "name": "Yuletide Orchard",
+      "categoryId": "Christmas Warm Holiday Drinks",
+      "description": "Hot apple cider, cinnamon sticks, clove, orange peel. A classic winter warmer with bright citrus lift and cozy spice. Fragrant, nostalgic, and beautifully comforting on a cold evening.",
+      "price": 7.5
+    },
+    {
+      "id": 230,
+      "name": "Pear & Partridge Hearth",
+      "categoryId": "Christmas Warm Holiday Drinks",
+      "description": "Hot pear cider, honey, cardamom, vanilla bean. Soft orchard sweetness layered with gentle spice and silky vanilla warmth. Elegant, lightly aromatic, and quietly luxurious.",
+      "price": 7.75
+    },
+    {
+      "id": 231,
+      "name": "Garnet Glow Cider",
+      "categoryId": "Christmas Warm Holiday Drinks",
+      "description": "Pomegranate juice, apple cider, star anise, fresh ginger. Deep jewel-toned warmth with bright tart fruit and subtle spice. Lively yet comforting — festive, vibrant, and visually striking.",
+      "price": 7.75
+    },
+    {
+      "id": 232,
+      "name": "The Hollycrest Shortbread",
+      "categoryId": "Christmas Holiday Cookies",
+      "description": "European butter, vanilla bean, fine sugar, delicate sea salt. Tender, buttery shortbread with a whisper of vanilla and a soft, crumbly finish. Simple, elegant, and timelessly festive.",
+      "price": 3.5
+    },
+    {
+      "id": 233,
+      "name": "Midnight Molasses Crinkles",
+      "categoryId": "Christmas Holiday Cookies",
+      "description": "Dark molasses, ginger, cinnamon, clove, brown sugar. Deeply spiced and beautifully crackled on the outside with a soft, chewy center. Warm, aromatic, and perfectly wintery.",
+      "price": 3.75
+    },
+    {
+      "id": 234,
+      "name": "Snowfall Almond Lace",
+      "categoryId": "Christmas Holiday Cookies",
+      "description": "Sliced almonds, butter, caramelized sugar, light citrus zest. Thin, golden, and delicately crisp with nutty richness and a subtle citrus lift. Elegant and irresistibly delicate.",
+      "price": 3.75
+    },
+    {
+      "id": 235,
+      "name": "Cranberry Noel Rounds",
+      "categoryId": "Christmas Holiday Cookies",
+      "description": "Dried cranberries, white chocolate, vanilla dough. Soft vanilla cookies studded with tart cranberry and creamy white chocolate. Bright, cheerful, and beautifully balanced.",
+      "price": 3.75
+    },
+    {
+      "id": 236,
+      "name": "The Evergreen Chocolate Thumbprint",
+      "categoryId": "Christmas Holiday Cookies",
+      "description": "Chocolate dough, raspberry preserve, fine sugar. Rich chocolate cookies filled with jewel-toned raspberry. Deep, decadent, and visually striking on any holiday table.",
+      "price": 3.75
+    },
+    {
+      "id": 237,
+      "name": "The Evergreen Bites",
+      "categoryId": "Christmas Holiday Skewers",
+      "description": "Fresh mozzarella pearls, cherry tomatoes, basil leaves, balsamic glaze. Bright, fresh, and beautifully simple. Creamy mozzarella and juicy tomatoes with herbaceous basil create a festive red-and-green presentation that’s both elegant and refreshing.",
+      "price": 6.75
+    },
+    {
+      "id": 238,
+      "name": "Winter Orchard Picks",
+      "categoryId": "Christmas Holiday Skewers",
+      "description": "Pear cubes, brie bites, candied pecans. Soft, creamy, and lightly sweet with a satisfying crunch. A refined balance of fruit and cheese that feels both indulgent and celebratory.",
+      "price": 7.25
+    },
+    {
+      "id": 239,
+      "name": "Holly & Honey Glaze",
+      "categoryId": "Christmas Holiday Skewers",
+      "description": "Roasted chicken bites, rosemary sprigs, honey drizzle. Savory and aromatic with a gentle touch of sweetness. Tender chicken and fresh rosemary offer cozy winter warmth in an easy-to-enjoy skewer.",
+      "price": 7.5
+    },
+    {
+      "id": 240,
+      "name": "Fireside Rosemary Bites",
+      "categoryId": "Christmas Holiday Skewers",
+      "description": "Herb-roasted potatoes, smoked sausage slices, whole grain mustard glaze. Warm, savory, and deeply satisfying. Tender roasted potatoes paired with smoky sausage and a gentle mustard glaze create a cozy winter skewer with just the right touch of holiday richness.",
+      "price": 7.75
+    },
+    {
+      "id": 241,
+      "name": "Gilded Fig & Prosciutto",
+      "categoryId": "Christmas Holiday Skewers",
+      "description": "Fresh figs, prosciutto ribbons, honey. Silky, savory, and delicately sweet. A luxurious combination that feels effortlessly sophisticated and perfect for a holiday soirée.",
+      "price": 8.25
+    },
+    {
+      "id": 242,
+      "name": "The Evergreen Whip",
+      "categoryId": "Christmas Dips",
+      "description": "Whipped goat cheese, fresh rosemary, honey, cracked black pepper, served with crostini and pear slices. Creamy, herbaceous, and lightly sweet with aromatic rosemary warmth. Crisp crostini and tender pear offer the perfect balance of crunch and softness.",
+      "price": 10.5
+    },
+    {
+      "id": 243,
+      "name": "Cranberry Noel Spread",
+      "categoryId": "Christmas Dips",
+      "description": "Cream cheese, cranberry compote, orange zest, toasted pecans, served with water crackers and baguette slices. Bright, jewel-toned cranberry layered over smooth cream cheese with citrus lift and nutty crunch. Festive, slightly tangy, and beautifully holiday-forward.",
+      "price": 10.75
+    },
+    {
+      "id": 244,
+      "name": "Winter Hearth Spinach Dip",
+      "categoryId": "Christmas Dips",
+      "description": "Spinach, garlic, cream cheese, Parmesan, cream, served warm with toasted sourdough cubes and baby carrots. Rich and velvety with savory depth and gentle garlic warmth. Comforting and indulgent without being heavy.",
+      "price": 11.5
+    },
+    {
+      "id": 245,
+      "name": "Golden Onion Glow",
+      "categoryId": "Christmas Dips",
+      "description": "Caramelized onions, sour cream, thyme, sea salt, served with kettle chips and toasted flatbread. Deeply savory with sweet onion richness and herbal lift. A luxurious take on a classic, perfect beside winter cocktails.",
+      "price": 10.5
+    },
+    {
+      "id": 246,
+      "name": "Yuletide White Bean Purée",
+      "categoryId": "Christmas Dips",
+      "description": "White beans, roasted garlic, olive oil, lemon zest, served with rosemary focaccia and cucumber spears. Silky and gently savory with bright citrus finish. Elegant, fresh, and beautifully balanced for lighter holiday grazing.",
+      "price": 10.25
+    },
+    {
+      "id": 247,
+      "name": "Crimson Hearth Pairing",
+      "categoryId": "Christmas Soup & Grilled Cheese",
+      "description": "Roasted tomato soup simmered with garlic, fresh thyme, and a touch of cream, served alongside a golden sourdough grilled cheese filled with sharp white cheddar and fresh basil. Bright, savory, and timelessly comforting with the perfect balance of richness and herbaceous lift.",
+      "price": 15.5
+    },
+    {
+      "id": 248,
+      "name": "The Winter Orchard Pairing",
+      "categoryId": "Christmas Soup & Grilled Cheese",
+      "description": "Silky butternut squash and apple soup infused with sage and vegetable broth, paired with rustic bread layered with nutty Gruyère and thin pear slices. Gently sweet, aromatic, and beautifully balanced between orchard warmth and creamy depth.",
+      "price": 15.75
+    },
+    {
+      "id": 249,
+      "name": "Fireside Mushroom Pairing",
+      "categoryId": "Christmas Soup & Grilled Cheese",
+      "description": "Velvety wild mushroom and shallot soup enriched with cream and fresh thyme, served with country bread grilled with fontina and caramelized onions. Deeply savory and indulgent, with luscious melted cheese complementing earthy winter flavors.",
+      "price": 16.25
+    },
+    {
+      "id": 250,
+      "name": "Yuletide Chicken & Herb Pairing",
+      "categoryId": "Christmas Soup & Grilled Cheese",
+      "description": "Roasted chicken soup with rosemary, garlic, and tender winter vegetables, accompanied by sourdough grilled with creamy Havarti and a light honey butter spread. Comforting and aromatic with a subtle festive sweetness.",
+      "price": 15.75
+    }
   ]
 }

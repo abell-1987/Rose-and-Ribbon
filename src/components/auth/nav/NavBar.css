@@ -1,0 +1,75 @@
+/* src/components/auth/nav/NavBar.css */
+
+.rrNav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.75rem 1.25rem;
+
+    background: rgba(0, 0, 0, 0.92);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+    backdrop-filter: blur(4px);
+}
+
+.rrNav__left,
+.rrNav__right {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+/* plain text links */
+.rrNav__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1;
+
+    /* no background, no border, no rounded corners */
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.rrNav__link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* logout should look like text too */
+.rrNav__logout {
+    background: transparent;
+    border: none;
+    padding: 0;
+
+    color: white;
+    font-size: 1rem;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.rrNav__logout:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.rrNav__link,
+.rrNav__link:hover,
+.rrNav__link:focus,
+.rrNav__link:active,
+.rrNav__link.active,
+.rrNav__link[aria-current="page"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}

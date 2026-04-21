@@ -1,0 +1,35 @@
+.menuPage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.menuLinksCard {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menuLinkList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuLinkItem {
+    margin: 0.85rem 0;
+}
+
+/* Link typography (Glass Antiqua), no boxes around links */
+.menuLink {
+    font-family: "Glass Antiqua", serif;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.menuLink:hover {
+    opacity: 0.9;
+}
